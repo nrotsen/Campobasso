@@ -1,0 +1,280 @@
+/* style.css */
+
+@font-face {
+  font-family: "DIN";
+  src: url(DINCondensedBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "ARIAL";
+  src: url(Arial.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HOLISPAY";
+  src: url(Holispay.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "JALLIESTHA";
+  src: url(Jalliestha.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MONTSERRAT";
+  src: url(Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.80857;
+  font-weight: normal;
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-family: "DIN";
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0;
+  font-weight: normal;
+  line-height: normal;
+  color: #111111;
+  margin: 0;
+  font-family: "HOLISPAY";
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "HOLISPAY";
+}
+
+.bluid h1 {
+  text-shadow: 1px 3px 3px #000;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.bluid p {
+  margin: 0px;
+  padding: 0;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 28px;
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.container-vaca-info h1 {
+  font-size: 60px;
+}
+
+.container-vaca-info p {
+  font-size: 60px;
+  font-size: 20px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.container-nosotros-info p {
+  font-size: 60px;
+  font-size: 20px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.container-nosotros-vaquitas h3 {
+  font-size: 40px;
+  font-family: "HOLISPAY";
+  color: #d9bc81;
+  padding: 30px;
+  width: 100%;
+}
+
+.section-c-nosotros p {
+  font-size: 60px;
+  font-size: 20px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.portfolio_text h3 {
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.descubri_button a {
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+}
+
+.cotiza_button a {
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+}
+
+.rallado-info h1 {
+  font-size: 50px;
+}
+
+.rallado-info p {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.container-text-and-button p {
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.container-text-and-button h3 {
+  font-size: 40px;
+}
+
+.text-description {
+  color: #000;
+  font-family: "HOLISPAY";
+  font-size: 20px;
+}
+
+.porque-button a {
+  font-family: "MONTSERRAT";
+  letter-spacing: 2px;
+}
+
+.bluid-provo h1 {
+  font-size: 60px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.bluid-provo p {
+  font-size: 60px;
+  color: #fff;
+  font-family: "HOLISPAY";
+  font-size: 20px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.Informa h3 {
+  font-family: "DIN";
+}
+
+.container-description-nuestros {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-description-nuestros h1 {
+  font-size: 40px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.container-description-nuestros p {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sabores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sabores h5 {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.sabores h6 {
+  font-size: 15px;
+  font-family: "MONTSERRAT";
+  font-weight: bold;
+  color: #000;
+}
+
+.ingredientes h5 {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.ingredientes h6 {
+  font-size: 15px;
+  font-family: "MONTSERRAT";
+  font-weight: bold;
+  color: #000;
+}
+
+.presentacion h5 {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.presentacion h6 {
+  font-size: 15px;
+  font-family: "MONTSERRAT";
+  font-weight: bold;
+  color: #000;
+}
+
+.pedilo-button {
+  margin-top: 25px;
+  background-color: #000;
+  color: #fff;
+  width: 70px;
+  padding: 10px 15px;
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .navigation.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px !important;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}

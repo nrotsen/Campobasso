@@ -1,0 +1,452 @@
+/* Estilos generales para resoluciones mayores o iguales a 1321px */
+@media (min-width: 1321px) {
+  .logo-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1450px) {
+  .section-d-nosotros {
+    padding: 0px;
+  }
+  .container-nosotros-vaquitas {
+    flex-direction: column;
+    max-height: 800px;
+  }
+}
+
+/* Estilos para resoluciones entre 1200px y 1320px */
+@media (min-width: 1200px) and (max-width: 1320px) {
+  ul.email li {
+    padding: 0px 31px;
+  }
+  #top_section {
+    height: 700px;
+  }
+  .banner_main .bluid h1 {
+    color: #fff;
+    font-size: 90px;
+    line-height: 110px;
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  .logo-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  .portfolio_quesos {
+    flex-direction: column;
+  }
+
+  .container-lechero-sellos {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 1250px) {
+  .section-c {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .section-d {
+    flex-direction: column;
+  }
+
+  .rallado-info p {
+    display: none;
+  }
+  .bakers {
+    min-width: 400px;
+    min-height: 400px;
+  }
+}
+
+/* Estilos para resoluciones entre 992px y 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner_main .bluid h1 {
+    color: #fff;
+    font-size: 90px;
+    line-height: 110px;
+    font-weight: bold;
+    padding-bottom: 25px;
+  }
+  .navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0px 21px;
+  }
+  ul.email li {
+    padding: 0px 19px;
+  }
+  #top_section {
+    padding-top: 164px;
+    height: 700px;
+  }
+  #we1 a.carousel-control-prev {
+    left: 42%;
+  }
+  #clientsl a.carousel-control-prev {
+    left: 33%;
+  }
+  .logo-toggle {
+    display: none;
+  }
+}
+
+/* Estilos para resoluciones entre 768px y 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0px 7px;
+  }
+  ul.email li {
+    padding: 0px 8px;
+  }
+  #top_section {
+    padding-top: 150px;
+    height: 600px;
+  }
+  .banner_main .bluid h1 {
+    font-size: 62px;
+    line-height: 71px;
+  }
+  .titlepage h2 {
+    font-size: 37px;
+    line-height: 41px;
+  }
+  #we1 a.carousel-control-prev {
+    left: 38%;
+  }
+  .we_box {
+    padding: 15px;
+  }
+  .clientsl_text {
+    padding: 25px;
+  }
+  #clientsl a.carousel-control-next,
+  #clientsl a.carousel-control-prev {
+    top: 98%;
+  }
+  #clientsl a.carousel-control-prev {
+    left: 34%;
+  }
+  #clientsl a.carousel-control-next {
+    right: 26%;
+  }
+  .Informa li {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .logo-toggle {
+    display: none;
+  }
+}
+
+/* Estilos para resoluciones entre 576px y 767px */
+@media (min-width: 400px) and (max-width: 1024px) {
+  #top_section {
+    padding-top: 150px;
+    height: 700px;
+  }
+  .logo {
+    text-align: left;
+    display: block;
+  }
+  .banner_main .bluid h1 {
+    font-size: 50px;
+  }
+  #we1 a.carousel-control-next,
+  #we1 a.carousel-control-prev {
+    top: 103%;
+  }
+  #we1 a.carousel-control-prev {
+    left: 37%;
+  }
+  #we1 a.carousel-control-next {
+    right: 37%;
+  }
+  .main_form .send_btn {
+    margin-bottom: 40px;
+  }
+  .newslatter_form {
+    margin-top: 50px;
+  }
+  .navigation.navbar {
+    float: right;
+    display: inherit !important;
+    padding: 0;
+    width: 100%;
+  }
+  .navigation .navbar-collapse {
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: black;
+  }
+
+  .navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 0;
+    color: #fff;
+    text-align: left;
+  }
+  .navigation.navbar-dark .navbar-toggler {
+    border: inherit;
+    float: right;
+    padding: 0;
+    outline: inherit;
+    margin-top: 0px;
+  }
+  .navigation.navbar-dark .navbar-toggler-icon {
+    background: url(../images/menu_btn.png);
+    background-repeat: no-repeat;
+    width: 48px;
+    float: right;
+  }
+  .container-image-description {
+    display: block;
+  }
+  .container-image-description img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Estilos para resoluciones menores a 770px */
+@media (max-width: 769px) {
+  .bluid {
+    padding-top: 50px;
+  }
+  .bluid .cotiza {
+    display: flex;
+  }
+  .navigation .navbar-collapse {
+    margin-top: 550px;
+  }
+}
+
+/* Estilos para resoluciones menores a 575px */
+@media (max-width: 575px) {
+  .header {
+    padding: 37px 0px;
+  }
+  .d_none {
+    display: none !important;
+  }
+  .logo {
+    display: block;
+    float: left;
+  }
+  .bluid {
+    margin-top: 23px;
+  }
+  .banner_main .bluid h1 {
+    font-size: 50px;
+    line-height: 59px;
+  }
+  #top_section {
+    height: 678px;
+  }
+  .banner_main .bluid .read_more {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  #we1 a.carousel-control-next {
+    right: 26%;
+  }
+  #we1 a.carousel-control-prev {
+    left: 25%;
+  }
+  #we1 a.carousel-control-next,
+  #we1 a.carousel-control-prev {
+    top: 101%;
+  }
+  .titlepage h2 {
+    font-size: 24px;
+    line-height: 54px;
+  }
+  #ho_nf:hover .portfolio_text {
+    height: 135px;
+    padding: 29px 14px;
+  }
+  .portfolio_text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .main_form .send_btn {
+    margin-bottom: 40px;
+  }
+  #clientsl a.carousel-control-next,
+  #clientsl a.carousel-control-prev {
+    top: 100%;
+  }
+  #clientsl a.carousel-control-next {
+    right: 25%;
+  }
+  #clientsl a.carousel-control-prev {
+    left: 25%;
+  }
+  .clientsl_text i img {
+    float: inherit;
+  }
+  .clientsl_text h3 {
+    margin-top: 11px;
+  }
+  .newslatter_form {
+    display: inherit;
+    margin-top: 40px;
+  }
+  .subs_btn {
+    margin-left: 0;
+    max-width: 223px;
+    margin-top: 30px;
+  }
+  .copyright p {
+    text-align: center;
+  }
+  ul.social_icon {
+    float: inherit;
+    margin-top: 20px;
+  }
+  .navigation.navbar {
+    float: right;
+    display: inherit !important;
+    padding: 0;
+    width: 100%;
+    margin-top: -27px;
+  }
+  .navigation .navbar-collapse {
+    background: #2b2b2b;
+    padding: 20px;
+    margin-top: 444px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+  }
+  .navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 10px 0;
+    color: #fff;
+    text-align: left;
+  }
+  .navigation.navbar-dark .navbar-toggler {
+    float: right;
+    border: inherit;
+    margin-top: 1px;
+    padding: 0;
+    outline: inherit;
+  }
+  .navigation.navbar-dark .navbar-toggler-icon {
+    background: url(../images/menu_btn.png);
+    background-repeat: no-repeat;
+    width: 48px;
+  }
+  .links-container {
+    flex-wrap: wrap;
+  }
+  .container-sellos {
+    display: none;
+  }
+  .container-text-and-button {
+    padding: 0px 10px 0px 10px;
+  }
+  .section-c-nosotros {
+    width: 100%;
+  }
+  .nosotros-image {
+    width: 100%;
+  }
+  .container-nosotros-info p {
+    display: none;
+  }
+  .container-nosotros-info .mobile-info {
+    display: flex;
+  }
+  .container-nosotros-vaquitas img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    padding-bottom: 200px;
+  }
+  .section-d-nosotros {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1250px) {
+  .rallado-info {
+    width: 100%;
+  }
+
+  .container-text-queso {
+    width: 100%;
+  }
+
+  .bakers {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .container-empleados {
+    width: 100%;
+  }
+}
+
+/* Estilos para resoluciones entre 300px y 800px */
+@media (min-width: 300px) and (max-width: 800px) {
+  .padding {
+    padding: 0px;
+  }
+
+  .bluid-provo {
+    padding-bottom: 150px;
+  }
+
+  .rallado-plateado {
+    padding-top: 0px;
+  }
+
+  .container-text-queso {
+    width: 100%;
+  }
+
+  .container-vaca-portfolio {
+    display: block;
+  }
+
+  .container-positioned {
+    position: absolute;
+    left: 14%;
+    top: 100px;
+  }
+
+  .container-vaca-info {
+    display: flex;
+  }
+
+  .container-vaca-info h1 {
+    padding: 20px;
+  }
+
+  .container-vaca-info p {
+    display: none;
+  }
+  .rallado-info {
+    width: 100%;
+  }
+
+  .bakers {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .container-empleados {
+    width: 100%;
+  }
+  .descubri_button {
+    padding: 10px;
+  }
+  .carousel-item-lechero img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
