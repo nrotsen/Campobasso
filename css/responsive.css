@@ -5,6 +5,12 @@
   }
 }
 
+@media (min-width: 1500px) {
+  .fondue {
+    max-height: 800px;
+  }
+}
+
 @media (min-width: 300px) and (max-width: 1450px) {
   .section-d-nosotros {
     padding: 0px;
@@ -61,6 +67,15 @@
   .bakers {
     min-width: 400px;
     min-height: 400px;
+  }
+  .section-c-nuestros {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-sellos img {
+    width: 100px;
+    height: 100px;
   }
 }
 

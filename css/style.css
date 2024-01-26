@@ -868,6 +868,10 @@ slider
   object-fit: cover;
 }
 
+.section-c-nuestros {
+  display: flex;
+}
+
 /* end section-c */
 
 /* section-d */
