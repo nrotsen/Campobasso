@@ -634,13 +634,14 @@ slider
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: 200px;
 }
 
 .container-nosotros-portfolio {
   display: flex;
   justify-content: center;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portfolio_img {
@@ -651,14 +652,21 @@ slider
 
 /** vaca section **/
 
+.container-nosotros-rallado-titulo {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
 .container-positioned {
   position: absolute;
-  left: 35%;
   top: 200px;
 }
 
-.container-nosotros-positioned {
-  position: absolute;
+.container-nosotros {
   top: 200px;
 }
 
@@ -670,7 +678,6 @@ slider
 .nosotros-img {
   width: 100%;
   max-width: 800px;
-  padding-bottom: 500px;
 }
 
 .container-vaca-info {
@@ -678,7 +685,11 @@ slider
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 50%;
+}
+
+.quesos-rallado-img {
+  max-height: 500px;
+  width: 100%;
 }
 
 .container-nosotros-info {
@@ -706,6 +717,17 @@ slider
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+.cucharas-rallados {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container-nuestro-canal {
+  display: flex;
+  justify-content: center;
 }
 
 /** end section-a **/
@@ -751,6 +773,14 @@ slider
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+.container-portfolio-rallados {
+  background-color: #000;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /* end section-b */
@@ -870,9 +900,172 @@ slider
 
 .section-c-nuestros {
   display: flex;
+  background-color: #dddddd;
+  padding: 30px;
+  width: 100%;
+}
+
+.section-c-rallados {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+}
+
+.container-gramaje {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.container-text-gramaje {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-campobasso-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-campobasso-contacto h3 {
+  font-size: 40px;
+}
+
+.container-data h3 {
+  font-size: 40px;
+}
+
+.section-campobasso-contacto img {
+  width: 100%;
+  height: 500px;
+}
+
+.container-info-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #cdd1d3;
+}
+
+.container-info-contacto h1 {
+  font-size: 60px;
+  font-family: "HOLISPAY";
+}
+
+.container-info-contacto h5 {
+  font-size: 25px;
+  font-family: "HOLISPAY";
+  padding: 0px 30px;
+}
+
+.container-info-contacto-h5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* end section-c */
+
+.container-quiero-contacto {
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.mobile-info {
+  text-align: center;
+  padding: 30px;
+}
+
+.punto-de-venta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.punto-de-venta p {
+  color: #000;
+}
+
+.punto-de-venta-directa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.punto-de-venta-directa p {
+  font-family: "MONTSERRAT";
+  font-size: 20px;
+  color: #000;
+}
+
+.container-quiero-text p {
+  font-family: "MONTSERRAT";
+  font-weight: 600;
+  position: relative;
+}
+
+.container-quiero-img {
+  position: absolute;
+  width: 150px;
+}
+
+.container-quiero-text h1 {
+  font-size: 40px;
+}
+
+.container-quiero-input {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.container-text-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.input-ingresa-aca {
+  padding: 5px 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid black;
+  font-family: "MONTSERRAT";
+}
+
+.button-contact {
+  background-color: #000;
+  padding: 6px 40px;
+  color: white !important;
+  cursor: pointer;
+  font-family: "MONTSERRAT";
+}
 
 /* section-d */
 
@@ -892,6 +1085,7 @@ slider
 .section-d-nosotros {
   display: flex;
   padding: 100px;
+  max-height: 800px;
 }
 
 .container-nosotros-vaquitas {
@@ -904,6 +1098,41 @@ slider
   width: 100%;
   max-height: 500px;
   object-fit: cover;
+}
+
+.container-nosotros-bolsa-rallado {
+  display: flex;
+  background-color: #000;
+}
+
+.container-nosotros-bolsa-rallado img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.container-nosotros-vaquitas img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.container-cuidamos {
+  display: flex;
+  padding: 100px;
+  width: 100%;
+}
+
+.container-cuidamos img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.container-cuidamos-text {
+  background-color: #000;
+  width: 100%;
+  padding: 30px;
 }
 
 .container-lechero-sellos {
@@ -1115,6 +1344,27 @@ slider
 #request *::placeholder {
   color: #888888;
   opacity: 1;
+}
+
+.contacto-form h2 {
+  font-size: 60px;
+}
+
+.contacto-form p {
+  font-size: 20px;
+  font-family: "HOLISPAY";
+  color: #000;
+}
+
+.contactus {
+  font-family: "MONTSERRAT";
+  color: #000 !important;
+  border: 1px solid black;
+}
+
+.send_btn {
+  background-color: #000 !important;
+  font-family: "MONTSERRAT";
 }
 
 /** end contact section **/

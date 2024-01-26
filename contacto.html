@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>hightech</title>
+    <title>Campobasso</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -19,17 +19,21 @@
     <!-- responsive-->
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="fontsCampobasso/styleCampobassoFonts.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.min.css" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
     ><![endif]-->
   </head>
   <!-- body -->
-  <body class="main-layout inner_page">
+  <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="" /></div>
@@ -39,6 +43,11 @@
     <header>
       <div class="header">
         <nav class="navigation navbar navbar-expand-md navbar-dark">
+          <img
+            class="logo-toggle"
+            src="images/logo-nav.svg"
+            alt="logo-toggle"
+          />
           <button
             class="navbar-toggler"
             type="button"
@@ -65,7 +74,7 @@
                 <div class="full">
                   <div class="center-desk">
                     <div class="logo">
-                      <a class="nav-link" href="home.html"
+                      <a class="nav-link a-logo" href="home.html"
                         ><img
                           class="img-logo"
                           src="images/logo-nav.svg"
@@ -94,7 +103,7 @@
       </div>
     </header>
     <!-- end header -->
-    <!-- start slider section -->
+    <!-- start wavy section -->
     <div class="wavy">
       <svg
         viewBox="0 0 500 150"
@@ -108,10 +117,82 @@
       </svg>
     </div>
     <!-- end of wavy svg -->
+
+    <!-- start slider section -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-flex w-100"
+            src="images/retrato-agricultor-mediana-edad-pie-granja-vacas-cuidando-ganado-animales-domesticos.jpg"
+            alt="First slide"
+          />
+          <div class="banner_main">
+            <div class="container">
+              <div class="bluid nosotros-slider carousel-caption d-md-block">
+                <p>CONTACTO</p>
+                <h1>Habla con nosotros<br />Sigamos en contacto.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end slider section -->
+    <!-- section-a -->
+    <div class="section-campobasso-contacto">
+      <img src="images/Contacto/logo-Ilustracion.svg" alt="" />
+      <h3>Contacto y ubicación</h3>
+      <div class="container-data">
+        <h3>PLANTA ELABORACIÓN</h3>
+        <h3>Av. Belgrano 1917, (B1611DUD)</h3>
+        <h3>Don Torcuato, Provincia de Buenos Aires</h3>
+        <h3>Tel. 011 3129-9784</h3>
+      </div>
+      <div class="container-data">
+        <h3>ALMACEN DE QUESOS - VENTA DIRECTA</h3>
+        <h3>Av. Belgrano 1917, (B1611DUD)</h3>
+        <h3>Don Torcuato, Provincia de Buenos Aires</h3>
+        <h3>Tel. 011 3129-9784</h3>
+      </div>
+    </div>
+    <!-- end section-a -->
+    <div class="container-info-contacto">
+      <h1>COMPRAR CAMPOBASSO</h1>
+      <div class="container-info-contacto-h5">
+        <h5>PEDIDOS PARTICULARES</h5>
+        <h5>Mail a hola@quesoscampobasso.com</h5>
+      </div>
+      <div class="container-info-contacto-h5">
+        <h5>VENTAS MAYORISTAS</h5>
+        <h5>
+          Realizá tus pedidos mayoristas, venta online o comercializar productos
+        </h5>
+        <h5>CAMPOBASSO en puntos de venta</h5>
+      </div>
+      <div class="container-info-contacto-h5">
+        <h5>Mail a ventas@campobassoquesos.com</h5>
+        <h5>Tel. 011 3455-3497</h5>
+      </div>
+      <div class="container-info-contacto-h5">
+        <h5>VENTAS A INDUSTRIA GASTONONOMICA</h5>
+        <h5>Contáctate con un asesor comercial del sector</h5>
+      </div>
+      <div class="container-info-contacto-h5">
+        <h5>Mail a gastronomicos@campobassoquesos.com</h5>
+        <h5>Tel. 011 3455-3497</h5>
+      </div>
+    </div>
     <!-- contact -->
     <div class="contact">
       <div class="container-form-and-title d-flex">
-        <div class="col-10 justify-content-center text_align_center">
+        <div
+          class="contacto-form col-10 justify-content-center text_align_center"
+        >
           <h2>CONSULTAS</h2>
           <p>
             Si queres consultarnos o comentarnos algo siempre podes escribirnos
@@ -160,15 +241,92 @@
       </div>
     </div>
     <!-- contact -->
+    <!-- section Quiero comercializar -->
+    <div class="container-quiero-contacto">
+      <div class="container-text-input">
+        <div class="container-quiero-text">
+          <div class="container-quiero-img">
+            <img
+              class="bolsa-img"
+              src="images/Puntos de venta/ilustracion-BolsaBanner.svg"
+              alt=""
+            />
+          </div>
+          <p>Unite y se parte de la revolucion del sabor</p>
+          <h1>Quiero comercializar</h1>
+          <h1>CAMPOBASSO</h1>
+        </div>
+        <div class="container-quiero-input">
+          <input
+            class="input-ingresa-aca"
+            type="text"
+            placeholder="INGRESA TU MAIL ACA"
+          />
+          <a class="button-contact">CONTACTARME</a>
+        </div>
+      </div>
+    </div>
+    <!-- section-c -->
+    <div class="section-c-nuestros">
+      <div class="container-title">
+        <h1 class="creemos-simplicidad">
+          Creemos en la simplicidad y la autenticidad.
+        </h1>
+      </div>
+      <div class="container-sellos">
+        <img
+          class="sellos-nosotros"
+          src="images/Home/icon-sin-conservantes.svg"
+          alt="cons"
+        />
+        <img
+          class="sellos-nosotros"
+          src="images/Home/icon-Natural.svg"
+          alt="natu"
+        />
+        <img
+          class="sellos-nosotros"
+          src="images/Home/icon-100Queso.svg"
+          alt="queso"
+        />
+        <img
+          class="sellos-nosotros"
+          src="images/Home/icon-SinTacc.svg"
+          alt="tacc"
+        />
+      </div>
+    </div>
     <!-- footer -->
     <footer>
       <div class="footer">
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-md-3">
-              <a class="logo_footer" href="index.html"
-                ><img src="images/logo_footer.png" alt="#"
+              <a class="logo_footer" href="home.html"
+                ><img src="images/Home/logo-footer.svg" alt="#"
               /></a>
+              <div class="container-footer-icons">
+                <img
+                  class="footer-icon"
+                  src="images/Home/icon-footer-100Queso.svg"
+                  alt="que"
+                />
+                <img
+                  class="footer-icon"
+                  src="images/Home/icon-footer-Natural.svg"
+                  alt="nat"
+                />
+                <img
+                  class="footer-icon"
+                  src="images/Home/icon-footer-SinConservantes.svg"
+                  alt="sin"
+                />
+                <img
+                  class="footer-icon"
+                  src="images/Home/Icon-footer-SinTacc.svg"
+                  alt="tac"
+                />
+              </div>
             </div>
             <div class="links-container d-flex justify-content-between">
               <div class="col-md-3 col-sm-6">
@@ -182,8 +340,8 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="Informa conta">
+              <div class="">
+                <div class="Informa conta" style="padding-left: 15px">
                   <h3>SEGUINOS</h3>
                   <ul class="social-ul d-flex">
                     <li>
