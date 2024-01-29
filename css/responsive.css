@@ -6,9 +6,8 @@
 }
 
 @media (min-width: 1024px) {
-  .leche-section img {
-    height: 500px;
-    width: 100%;
+  .carousel-item-leche-background img {
+    object-fit: cover;
   }
 }
 
@@ -18,7 +17,7 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 1450px) {
+@media (max-width: 1450px) {
   .section-d-nosotros .rallado {
     padding: 0px;
   }
@@ -48,7 +47,7 @@
   }
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .portfolio_quesos {
     flex-direction: column;
     padding-top: 50px;
@@ -96,7 +95,7 @@
   }
 }
 
-@media (min-width: 400px) and (max-width: 1250px) {
+@media (max-width: 1250px) {
   .section-c {
     flex-direction: column;
     height: 100vh;
@@ -203,7 +202,7 @@
 }
 
 /* Estilos para resoluciones entre 576px y 767px */
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   #top_section {
     padding-top: 150px;
     height: 700px;
@@ -461,14 +460,13 @@
   }
 }
 
-@media (min-width: 400px) and (max-width: 850px) {
+@media (max-width: 850px) {
   .container-text-input {
     flex-direction: column;
   }
 }
 
-/* Estilos para resoluciones entre 300px y 800px */
-@media (min-width: 400px) and (max-width: 800px) {
+@media (max-width: 800px) {
   .padding {
     padding: 0px;
   }
@@ -487,11 +485,6 @@
 
   .container-vaca-portfolio {
     display: block;
-  }
-
-  .container-positioned {
-    position: absolute;
-    top: 100px;
   }
 
   .container-vaca-info {
@@ -537,5 +530,31 @@
   }
   .container-nuestro-canal {
     padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 550px) {
+  .container-positioned {
+    position: absolute;
+  }
+}
+
+@media (max-width: 549px) {
+  .container-positioned {
+    display: flex;
+    top: 100px;
+    justify-content: center;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 450px) {
+  .container-quiero-input {
+    flex-direction: column;
+  }
+  .button-contact {
+    padding: 6px 44px;
   }
 }

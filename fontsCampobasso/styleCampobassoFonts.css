@@ -353,11 +353,15 @@ h1 {
   }
 }
 
-@media (min-width: 400px) and (max-width: 799px) {
+@media (max-width: 799px) {
   .container-data {
     padding: 30px;
   }
   .container-data h3 {
     font-size: 30px;
+  }
+
+  .container-info-contacto h5 {
+    font-size: 20px;
   }
 }
