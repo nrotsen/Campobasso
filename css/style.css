@@ -281,26 +281,129 @@ loader
 header 
 ---------------------------------------------------------------------*/
 
-.header {
-  width: 100%;
+header {
+  background-color: black;
   height: 140px;
-  background: rgb(0, 0, 0);
-  box-shadow: 3px 0 13px rgba(30, 30, 30, 0.9);
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.container-fluid {
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-item {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-.logo_section {
-  width: 500px;
+.navbar-item a {
+  color: white;
+  font-size: 30px;
 }
 
-.logo-toggle {
-  width: 80%;
+.navbar-item .logo-container {
+  display: flex;
+  height: 140px;
+}
+
+img {
+  width: 100%;
+  height: 120px;
+}
+
+.wavy {
+  display: flex;
+  overflow: hidden;
+  width: 25%;
+  position: absolute;
+  z-index: 10;
+  left: 33.5%;
+  top: 140px;
+}
+
+.punto {
+  color: #d9bc81;
+}
+
+#menu-opened {
+  overflow: hidden;
+}
+
+@media (min-width: 1049px) {
+  .navbar-mobile {
+    display: none;
+  }
+  #menu-opened {
+    display: none;
+  }
+}
+
+@media (min-width: 1291px) and (max-width: 1410px) {
+  .navbar-item a {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1290px) {
+  .navbar-item a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-mobile-logo {
+    width: 80%;
+  }
+  .navbar-item {
+    justify-content: unset;
+  }
+  .wavy {
+    top: 0px;
+  }
+}
+
+@media (max-width: 1049px) {
+  #menu-opened {
+    background-color: black;
+    justify-content: center;
+    transition: all 1s;
+  }
+  header ul {
+    gap: 0px;
+  }
+  .navbar-desktop {
+    display: none;
+  }
+  .navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .menu-icon {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .toggle-button {
+    border: none;
+    background-color: transparent;
+  }
+  .navbar-mobile-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*--------------------------------------------------------------------- 
@@ -362,20 +465,6 @@ ul.email li a {
 ul.email li i {
   color: #fff;
   font-size: 19px;
-}
-
-/*--------------------------------------------------------------------- 
-wavy svg
----------------------------------------------------------------------*/
-
-.wavy {
-  display: flex;
-  overflow: hidden;
-  width: 25%;
-  position: absolute;
-  z-index: 10;
-  left: 35.5%;
-  top: 140px;
 }
 
 /*--------------------------------------------------------------------- 
@@ -832,6 +921,7 @@ slider
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding: 30px;
 }
 
 .container-data {
@@ -859,6 +949,7 @@ slider
   align-items: center;
   gap: 30px;
   background-color: #cdd1d3;
+  padding: 30px;
 }
 
 .container-info-contacto h1 {
@@ -869,7 +960,6 @@ slider
 .container-info-contacto h5 {
   font-size: 25px;
   font-family: "HOLISPAY";
-  padding: 0px 30px;
 }
 
 .container-info-contacto-h5 {

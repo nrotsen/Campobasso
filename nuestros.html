@@ -41,67 +41,85 @@
     <!-- end loader -->
     <!-- header -->
     <header>
-      <div class="header">
-        <nav class="navigation navbar navbar-expand-md navbar-dark">
+      <ul class="navbar-desktop">
+        <li class="navbar-item">
+          <a href="home.html">HOME</a>
+          <span class="punto">•</span>
+        </li>
+        <li class="navbar-item">
+          <a href="nosotros.html">NOSOTROS</a>
+          <span class="punto">•</span>
+        </li>
+        <li class="navbar-item">
+          <a href="nuestros.html">NUESTROS</a>
+          <span class="punto">•</span>
+        </li>
+        <div class="logo-container">
           <img
-            class="logo-toggle"
+            class="navbar-desktop-logo"
             src="images/logo-nav.svg"
-            alt="logo-toggle"
+            alt="logo-desk"
           />
+        </div>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="quesos_rallados.html">QUESOS RALLADOS</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="puntos_de_venta.html">PUNTOS DE VENTA</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+      <ul class="navbar-mobile">
+        <li class="navbar-item">
+          <img
+            class="navbar-mobile-logo"
+            src="images/logo-nav.svg"
+            alt="logo-mob"
+          />
+        </li>
+        <li class="navbar-item container-menu-icon">
           <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarsExample04"
-            aria-controls="navbarsExample04"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            class="toggle-button"
+            onclick="javascript:return ShowDivonClick()"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars menu-icon"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="home.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nuestros.html">NUESTROS QUESOS</a>
-              </li>
-              <div class="logo_section">
-                <div class="full">
-                  <div class="center-desk">
-                    <div class="logo">
-                      <a class="nav-link a-logo" href="home.html"
-                        ><img
-                          class="img-logo"
-                          src="images/logo-nav.svg"
-                          alt="#"
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link" href="quesos_rallados.html"
-                  >QUESOS RALLADOS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="puntos_de_venta.html"
-                  >PUNTOS DE VENTA</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+        </li>
+      </ul>
     </header>
+    <section id="menu-opened" style="height: 0; min-height: 0">
+      <ul class="navbar-mobile-list">
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="home.html">HOME</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="nosotros.html">NOSOTROS</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="nuestros.html">NUESTROS</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="quesos_rallados.html">QUESOS RALLADOS</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="puntos_de_venta.html">PUNTOS DE VENTA</a>
+        </li>
+        <li class="navbar-item">
+          <span class="punto">•</span>
+          <a href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </section>
     <!-- end header -->
     <!-- start wavy section -->
     <div class="wavy">
@@ -465,6 +483,22 @@
       <i class="fa fa-whatsapp my-float"></i>
     </a>
     <!-- Javascript files-->
+    <script
+    src="https://kit.fontawesome.com/e5ffc6fe18.js"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    function ShowDivonClick() {
+      const menuOpened = document.getElementById("menu-opened");
+      if (menuOpened.style.height === "325.5px") {
+        menuOpened.style.minHeight = "0px";
+        menuOpened.style.height = "0px";
+      } else {
+        menuOpened.style.minHeight = "325.5px";
+        menuOpened.style.height = "325.5px";
+      }
+    }
+  </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
