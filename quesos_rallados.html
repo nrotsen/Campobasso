@@ -35,8 +35,8 @@
   <!-- body -->
   <body class="main-layout">
     <!-- loader  -->
-    <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    <div class="loader-wrapper">
+      <span class="loader"></span>
     </div>
     <!-- end loader -->
     <!-- header -->
@@ -47,11 +47,11 @@
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
-          <a href="nosotros.html">NOSOTROS</a>
+          <a href="nuestros.html">NUESTROS QUESOS</a>
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
-          <a href="nuestros.html">NUESTROS</a>
+          <a href="quesos_rallados.html">RALLADOS X MAYOR</a>
           <span class="punto">•</span>
         </li>
         <div class="logo-container">
@@ -63,7 +63,7 @@
         </div>
         <li class="navbar-item">
           <span class="punto">•</span>
-          <a href="quesos_rallados.html">QUESOS RALLADOS</a>
+          <a href="nosotros.html">NUESTRA EMPRESA</a>
         </li>
         <li class="navbar-item">
           <span class="punto">•</span>
@@ -249,11 +249,11 @@
           <div>
             <img
               class="portfolio_img"
-              src="images/Home/parmesano.jpg"
+              src="images/brazilian-cheese-puffs3.jpg"
               alt="#"
             />
             <div class="portfolio_text rallados">
-              <h3 class="text-products">PARMESANO</h3>
+              <h3 class="text-products">FABRICAS DE CHIPA</h3>
             </div>
           </div>
         </div>
@@ -262,11 +262,11 @@
           <div>
             <img
               class="portfolio_img"
-              src="images/Home/REGGIANITO.jpg"
+              src="images/delicious-cheese-bread-making-arrangement (1).jpg"
               alt="#"
             />
             <div class="portfolio_text rallados">
-              <h3 class="text-products">REGGIANITO</h3>
+              <h3 class="text-products">FABRICAS DE PASTA</h3>
             </div>
           </div>
         </div>
@@ -275,23 +275,26 @@
           <div>
             <img
               class="portfolio_img"
-              src="images/Home/PROVOLONE.jpg"
+              src="images/two-smiling-bakers-preparing-bread-bakery-kitchen.jpg"
               alt="#"
             />
             <div class="portfolio_text rallados">
-              <h3 class="text-products">PROVOLONE</h3>
+              <h3 class="text-products">PANADERIAS</h3>
             </div>
           </div>
         </div>
 
         <div class="text_align_center rallados">
           <div>
-            <img class="portfolio_img" src="images/Home/SARDO.jpg" alt="#" />
+            <img class="portfolio_img" src="images/rustic-italian-meal-pasta-meat-wine-wooden-table-generated-by-ai.jpg" alt="#" />
             <div class="portfolio_text">
-              <h3 class="text-products">SARDO</h3>
+              <h3 class="text-products">RESTAURANTES</h3>
             </div>
           </div>
         </div>
+      </div>
+      <div class="contacta-asesor">
+        <a href="https://api.whatsapp.com/send?phone=51900000000&text=Hola quisiera saber la cotizacion de sus quesos!">CONTACTA UN ASESOR COMERCIAL</a>
       </div>
     </div>
     </div>
@@ -308,17 +311,17 @@
         <p>La elección de un producto panificado se guía por el sabor, especialmente para los jóvenes influidos por las redes sociales. Los productos horneados se benefician de la variedad de quesos desidratados de CAMPOBASSO, brindando opciones creativas y muy atractivas visualmente. Nuestros productos son ideales para panaderías, añadiendo un toque delicioso sin derretirse. Con larga durabilidad y opciones de sabor personalizadas, buscamos la mejor solución para satisfacer las preferencias del cliente.</p>
       </div>
       <div class="container-info">
-        <h1>Quesos Rallados Sin Desidratar</h1>
-        <p>
+        <h1>Quesos Rallados Sin Deshidratar</h1>
+        <p>(100% queso estacionado)</p>
+        <p class="rallado-text">
           Cubos, cuñas, copos, hebras, escamas, entrefino y fino.
-          (100% queso o puede contener aditivos)
         </p>
       </div>
       <div class="container-last-info">
-        <h1>Quesos Rallados Desidratados</h1>
-        <p>
+        <h1>Quesos Rallados Deshidratados</h1>
+        <p>(100% queso estacionado)</p>
+        <p class="rallado-text">
           Rallado Fino Deshidratado 
-          (100% queso o puede contener aditivos)
         </p>
       </div>
     </div>
@@ -379,6 +382,29 @@
           </div>
         </div>
 
+      </div>
+    </div>
+    <div class="container-iconos-varios">
+      <div class="container-icon-card border-right">
+        <img src="images/iconos-varios/Envios.svg" alt="" />
+        <div class="container-card-text">
+          <h1>ENVIOS</h1>
+          <p>A TODO EL PAIS</p>
+        </div>
+      </div>
+      <div class="container-icon-card border-right">
+        <img src="images/iconos-varios/Retiro.svg" alt="" />
+        <div class="container-card-text">
+          <h1>RETIRO</h1>
+          <p>EN EL ALMACEN</p>
+        </div>
+      </div>
+      <div class="container-icon-card card-xl">
+        <img src="images/iconos-varios//Paga.svg" alt="" />
+        <div class="container-card-text">
+          <h1 class="paga-text">PAGA <br /></h1>
+          <p class="paga-text">CON CUALQUIER <br />MEDIO DE PAGO</p>
+        </div>
       </div>
     </div>
     <!-- end section-d -->
@@ -527,6 +553,7 @@
         }
       }
     </script>
+    <script src="js/spinner.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>

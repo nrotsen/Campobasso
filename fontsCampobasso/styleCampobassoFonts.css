@@ -129,7 +129,6 @@ h1 {
 
 .descubri_button a {
   font-family: "MONTSERRAT";
-  letter-spacing: 2px;
 }
 
 .cotiza_button a {
@@ -155,13 +154,13 @@ h1 {
 }
 
 .container-text-and-button h3 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .text-description {
   color: #000;
   font-family: "HOLISPAY";
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .porque-button a {
@@ -189,11 +188,11 @@ h1 {
 .container-description-nuestros {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .container-description-nuestros h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: "HOLISPAY";
   color: #000;
 }
@@ -278,6 +277,19 @@ h1 {
   font-family: "HOLISPAY";
   color: white;
   text-align: center;
+  width: 60%;
+}
+
+.contacta-asesor {
+  background-color: #fff;
+}
+
+.contacta-asesor a {
+  color: #000;
+  font-family: "MONTSERRAT";
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px;
 }
 
 .gramaje {
@@ -330,6 +342,12 @@ h1 {
   font-size: 60px;
   position: absolute;
   top: 65%;
+}
+
+.container-cuidamos-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .container-cuidamos-text h3 {

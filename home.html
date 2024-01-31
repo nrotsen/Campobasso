@@ -35,8 +35,8 @@
   <!-- body -->
   <body class="main-layout">
     <!-- loader  -->
-    <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    <div class="loader-wrapper">
+      <span class="loader"></span>
     </div>
     <!-- end loader -->
     <!-- header -->
@@ -47,11 +47,11 @@
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
-          <a href="nosotros.html">NOSOTROS</a>
+          <a href="nuestros.html">NUESTROS QUESOS</a>
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
-          <a href="nuestros.html">NUESTROS</a>
+          <a href="quesos_rallados.html">RALLADOS X MAYOR</a>
           <span class="punto">•</span>
         </li>
         <div class="logo-container">
@@ -63,7 +63,7 @@
         </div>
         <li class="navbar-item">
           <span class="punto">•</span>
-          <a href="quesos_rallados.html">QUESOS RALLADOS</a>
+          <a href="nosotros.html">NUESTRA EMPRESA</a>
         </li>
         <li class="navbar-item">
           <span class="punto">•</span>
@@ -151,7 +151,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item carousel-image active">
           <img
             class="d-flex w-100"
             src="images/home-primeravista.jpeg"
@@ -169,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item carousel-image">
           <img
             class="d-flex w-100"
             src="images/vista-primer-plano-piernas-granjero-que-trabaja-hierba-fresca-establo-animales.jpg"
@@ -217,49 +217,69 @@
       <!-- portfolio section -->
       <div class="portfolio_quesos d-flex w-100 justify-content-around">
         <div class="text_align_center">
-          <div>
+          <div class="container-portfolio-queso-img">
             <img
               class="portfolio_img"
               src="images/Home/parmesano.jpg"
               alt="#"
             />
-            <div class="portfolio_text">
-              <h3>PARMESANO</h3>
+            <div class="middle">
+              <p>QUESO</p>
+              <h1>PARMESANO</h1>
+              <hr />
+              <a href="nuestros.html#parme">
+                <p>VER MAS</p>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="text_align_center">
-          <div>
+          <div class="container-portfolio-queso-img">
             <img
               class="portfolio_img"
               src="images/Home/REGGIANITO.jpg"
               alt="#"
             />
-            <div class="portfolio_text">
-              <h3>REGGIANITO</h3>
+            <div class="middle">
+              <p>QUESO</p>
+              <h1>REGGIANITO</h1>
+              <hr />
+              <a href="nuestros.html#reggiano">
+                <p>VER MAS</p>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="text_align_center">
-          <div>
+          <div class="container-portfolio-queso-img">
             <img
               class="portfolio_img"
               src="images/Home/PROVOLONE.jpg"
               alt="#"
             />
-            <div class="portfolio_text">
-              <h3>PROVOLONE</h3>
+            <div class="middle">
+              <p>QUESO</p>
+              <h1>PROVOLONE</h1>
+              <hr />
+              <a href="nuestros.html#provologne">
+                <p>VER MAS</p>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="text_align_center">
-          <div>
+          <div class="container-portfolio-queso-img">
             <img class="portfolio_img" src="images/Home/SARDO.jpg" alt="#" />
-            <div class="portfolio_text">
-              <h3>SARDO</h3>
+            <div class="middle">
+              <p>QUESO</p>
+              <h1>SARDO</h1>
+              <hr />
+              <a href="nuestros.html#sardo">
+                <p>VER MAS</p>
+              </a>
             </div>
           </div>
         </div>
@@ -298,7 +318,10 @@
                 <p>VENTA MAYORISTA</p>
                 <h1>Queso rallado para <br />profesionales gastronomicos</h1>
                 <div class="cotiza_button">
-                  <a href="contacto.html">COTIZA AHORA!</a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=51900000000&text=Hola quisiera saber la cotizacion de sus quesos!"
+                    >COTIZA AHORA!</a
+                  >
                 </div>
               </div>
             </div>
@@ -316,7 +339,10 @@
                 <p>VENTA MAYORISTA</p>
                 <h1>Queso rallado para <br />profesionales gastronomicos</h1>
                 <div class="cotiza_button">
-                  <a href="contacto.html">COTIZA AHORA!</a>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=51900000000&text=Hola quisiera saber la cotizacion de sus quesos!"
+                    >COTIZA AHORA!</a
+                  >
                 </div>
               </div>
             </div>
@@ -385,7 +411,7 @@
       </div>
 
       <div class="container-text-and-button text_align_right">
-        <p>NOSOTROS</p>
+        <p>NUESTRA EMPRESA</p>
         <h3>Creemos en la simplicidad <br />y la autenticidad</h3>
         <span class="text-description">
           No utilizamos conservantes ni aditivos artificiales en nuestros
@@ -398,28 +424,82 @@
       </div>
     </div>
     <!-- end section-d -->
-
     <!-- start e section -->
-
-    <div class="carousel-item active padding">
-      <img
-        class="provoleta d-flex w-100"
-        src="images/ProvoPanceta.jpeg"
-        alt="First slide"
-      />
-      <div class="bluid-provo cotiza carousel-caption d-none d-md-block">
+    <div class="container-provoleta-probala">
+      <img src="images/ProvoPanceta.jpeg" alt="" />
+      <div class="container-provoleta-text">
         <h1>Provoletas Saborizadas</h1>
-        <p>
-          Nuestras provos YA VIENEN LISTAS!<br />
-          Panceta y Morrón, Tomates Secos, Provenzal Casero,<br />
-          Cebolla Ahumada e Infierno con Merkel Chileno.
-        </p>
+        <h3>
+          Nuestras provos YA VIENEN LISTAS!<br />Panceta y Morron. Tomates
+          secos. Provenzal. <br />Cebollas caramelizadas y Merkel
+        </h3>
         <div class="cotiza_button">
-          <a href="contacto.html">PROBALAS!</a>
+          <a href="nuestros.html#provoleta">PROBALAS!</a>
         </div>
       </div>
     </div>
 
+    <div class="container-provo-mix">
+      <div class="container-provo-xl">
+        <img src="images/provoletazoomed.png" alt="" />
+        <div class="container-provoxl-text">
+          <div class="container-provoxl-textmini">
+            <h1>Pro- <br />vo- <br />leta <br />XL</h1>
+            <div class="cotiza_button">
+              <a href="nuestros.html#provoleta">YA LA PROBASTE?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-mix-fondue">
+        <img src="images/mix-zoomed.png" alt="" />
+        <div class="container-mix-text">
+          <h1>Mix <br />Fondue</h1>
+          <h3>Mix de quesos para FONDUE.<br />VIENE LISTO!</h3>
+          <div class="cotiza_button">
+            <a href="nuestros.html#fondue">PROBALA!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-almacen">
+      <div class="container-almacen-text">
+        <h1>Conoce Nuestro <br />Almacen Gourmet</h1>
+        <h3>
+          Encontrarás nuestros Quesos, <br />de venta exclusiva y directo de
+          <br />fabrica, fiambres y productos <br />Gourmet.
+        </h3>
+      </div>
+      <img src="images/almacenzoomed.png" alt="" />
+      <div class="cotiza_button veni-button">
+        <a href="nosotros.html">VENI A CONOCERLO</a>
+      </div>
+    </div>
+
+    <div class="container-iconos-varios">
+      <div class="container-icon-card border-right">
+        <img src="images/iconos-varios/Envios.svg" alt="" />
+        <div class="container-card-text">
+          <h1>ENVIOS</h1>
+          <p>A TODO EL PAIS</p>
+        </div>
+      </div>
+      <div class="container-icon-card border-right">
+        <img src="images/iconos-varios/Retiro.svg" alt="" />
+        <div class="container-card-text">
+          <h1>RETIRO</h1>
+          <p>EN EL ALMACEN</p>
+        </div>
+      </div>
+      <div class="container-icon-card card-xl">
+        <img src="images/iconos-varios//Paga.svg" alt="" />
+        <div class="container-card-text">
+          <h1 class="paga-text">PAGA <br /></h1>
+          <p class="paga-text">CON CUALQUIER <br />MEDIO DE PAGO</p>
+        </div>
+      </div>
+    </div>
     <!-- end slider section -->
     <!-- footer -->
     <footer>
@@ -536,6 +616,7 @@
         }
       }
     </script>
+    <script src="js/spinner.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
