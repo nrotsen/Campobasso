@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- responsive-->
     <link rel="stylesheet" href="css/responsive.css" />
-    <!-- awesome fontfamily -->
-    <link rel="stylesheet" href="fonts-campobasso/style-campobasso-fonts.css" />
     <!-- aos jquery scroll library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="fonts-campobasso/style-campobasso-fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -144,11 +144,19 @@
       class="carousel slide"
       data-ride="carousel"
     >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
             class="d-flex w-100 primera-vista"
-            src="images/retrato-agricultor-mediana-edad-pie-granja-vacas-cuidando-ganado-animales-domesticos.jpg"
+            src="images/NAT_1287.jpg"
             alt="First slide"
           />
           <div class="banner_main">
@@ -157,8 +165,26 @@
                 data-aos="fade-down"
                 class="bluid nosotros-slider carousel-caption d-md-block"
               >
-                <p>CONTACTO</p>
-                <h1>Habla con nosotros<br />Sigamos en contacto.</h1>
+                <p>PUNTOS DE VENTA</p>
+                <h1>Encontra nuestros<br />quesos en toda la region.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-flex w-100 segunta-vista"
+            src="images/vista-primer-plano-piernas-granjero-que-trabaja-hierba-fresca-establo-animales.jpg"
+            alt="Second slide"
+          />
+          <div class="banner_main">
+            <div class="container">
+              <div
+                data-aos="fade-down"
+                class="bluid nosotros-slider carousel-caption d-md-block"
+              >
+                <p>PUNTOS DE VENTA</p>
+                <h1>Encontra nuestros<br />quesos en toda la region.</h1>
               </div>
             </div>
           </div>
@@ -167,126 +193,107 @@
     </div>
     <!-- end slider section -->
     <!-- section-a -->
-    <div class="section-campobasso-contacto">
-      <img
-        data-aos="fade-up"
-        src="images/Contacto/logo-Ilustracion.svg"
-        alt=""
-      />
-      <h1 data-aos="fade-up">Contacto y ubicación</h1>
-      <div data-aos="fade-up" class="container-mini-section">
-        <img src="images/NAT_1535.jpg" alt="" />
-        <h2>
-          ALMACEN DE QUESOS Y PRODUCTOS GOURMET <br />(VENTA DIRECTA DE FABRICA)
-        </h2>
-        <p>
-          Av. Belgrano 1917. (B1611DUD) <br />Don Torcuato, Provincia de Buenos
-          Aires <br />Tel. 011 3129-9784
-        </p>
-        <div class="descargar-button">
-          <a href="">DESCARGAR LISTA DE PRECIOS ACA</a>
+    <div class="section-a">
+      <div class="container-nosotros-portfolio">
+        <div class="container-nosotros-rallado-titulo">
+          <img
+            data-aos="fade-right"
+            class="quesos-rallado-img"
+            src="images/puntos-de-venta/ilustracion-PuntosDeVenta.svg"
+            alt="vaga-img"
+          />
+          <div class="container-nuestro-canal">
+            <h1 data-aos="fade-left" class="nuestro-canal">
+              Donde comprar CAMPOBASSO
+            </h1>
+          </div>
         </div>
-      </div>
-      <div data-aos="fade-up" class="container-mini-section">
-        <img src="images/delicious-organic-cheese-wheels.jpg" alt="" />
-        <h2>PLANTA ELABORACION</h2>
-        <p>
-          Av. Belgrano 1917. (B1611DUD) <br />Don Torcuato, Provincia de Buenos
-          Aires <br />Tel. 011 3129-9784
-        </p>
-      </div>
-      <div class="container-mini-section">
-        <img
-          data-aos="fade-up"
-          src="images/closeup-foto-vaca-mirando-camara-dia-soleado.jpg"
-          alt=""
-        />
-        <h2 data-aos="fade-up">TAMBO Y PRODUCCION</h2>
-        <p data-aos="fade-up">Bell Ville, Cordoba, Argentina.</p>
+        <div class="container-nosotros">
+          <div class="container-puntos-info">
+            <h1 data-aos="fade-up" class="mobile-info">
+              Te acercamos los distintos canales de comercialización: Nuestro
+              Almacén de quesos, <br />
+              supermercados, tiendas online, locales de productos gourmet, etc.
+            </h1>
+            <div data-aos="fade-up" class="punto-de-venta-directa">
+              <h1>ALMACEN DE QUESOS - VENTA DIRECTA</h1>
+              <p>Av. Belgrano 1917, (B1611DUD)</p>
+              <p>Don Torcuato, Provincia de Buenos Aires</p>
+              <p>Tel. 011 3129-9784</p>
+            </div>
+            <div class="container-puntos-img">
+              <img
+                data-aos="fade-up"
+                src="images/Screenshot 2024-01-24 at 16.12.13.png"
+                alt=""
+              />
+            </div>
+            <div data-aos="fade-up" class="punto-de-venta">
+              <h1>BUENOS AIRES (CABA)</h1>
+              <p>BIOMARKET - AV. PUEYRREDON 2088 (RECOLETA)</p>
+              <p>MATCHA LIFE - RODRIGUEZ PEÑA 1336 (RECOLETA)</p>
+              <p>MERCADO PUNTO VERDE - DORREGO 1429 (PALERMO)</p>
+              <p>EL GALPON - FEDERICO LACROZE 4181 (CHACARITA)</p>
+              <p>FLORA ALMACEN - DOREGO 2082 (PALERMO)</p>
+              <p>FRESCO MERCADO - JURAMENTO 2540 (BELGRANO)</p>
+              <p>LA TIENDA NATURAL - MIGUELETES 1862 (BELGRANO)</p>
+              <p>MERCADITO NATURAL MONROE 1991 (BELGRANO)</p>
+            </div>
+            <div data-aos="fade-up" class="punto-de-venta">
+              <h1>BUENOS AIRES (ZONA SUR)</h1>
+              <p>TINA & CO - MENDOZA 1678 (BARRIO CHINO)</p>
+              <p>CASA CHINA DIETETICA - ARRIBEÑOS 2173 (BARRIO CHINO)</p>
+              <p>BEER COFFEE - FLORIDA 737 (GALERIAS PACIFICO)</p>
+              <p>LA AGROECOLOGICA - MANUELA PEDRAZA 2042 (NUÑEZ)</p>
+              <p>DAME TU MANO - QUESADA 5094 (VILLA URQUIZA)</p>
+              <p>ZOJA MARKET - AV. SANTA FE 4872 (RECOLETA)</p>
+              <p>FRESCO MERCADO - ARAOZ 2485 (PALERMO)</p>
+            </div>
+            <div data-aos="fade-up" class="punto-de-venta">
+              <h1>BUENOS AIRES (ZONA NORTE)</h1>
+              <p>SHAFE ALMACEN - DRAGONES 2000 (BELGRANO)</p>
+              <p>IBU ALMACEN - SANCHEZ DE BUSTAMENTE 2007 (RECOLETA)</p>
+              <p>CHICANA INTI - DONADO 1995 (VILLA URQUIZA)</p>
+              <p>INTENZZO CHELSEA GOURMENT - AVALOS 1989 (VILLA URQUIZA)</p>
+              <p>LAPIDA ALMACEN - LAPRIDA 1917 (RECOLETA)</p>
+              <p>CHIRIMOYA TIENDA - LUGONES 2267 (DEVOTO)</p>
+            </div>
+            <div data-aos="fade-up" class="punto-de-venta">
+              <h1>PROVINCIA DE BUENOS AIRES</h1>
+              <p>NARDA COMEDOR DIARIO - NICARAGUA 6055 (PALERMO)</p>
+              <p>NATURAL WAY - MIGUELETES 1910 (BARRIO CHINO)</p>
+              <p>DEL PATRELLO - CLAY 2866 (LAS CAÑITAS)</p>
+              <p>ALMACEN LURO - QUINTANA 48 (RECOLETA)</p>
+              <p>BLOOM MARKET - GORRITI 5578 (PALERMO)</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- end section-a -->
-    <div class="container-info-contacto">
-      <h1>COMPRAR CAMPOBASSO</h1>
-      <div data-aos="fade-up" class="container-info-contacto-h5">
-        <h5>PEDIDOS PARTICULARES</h5>
-        <h5>Mail a hola@quesoscampobasso.com</h5>
-      </div>
-      <div data-aos="fade-up" class="container-info-contacto-h5">
-        <h5>VENTAS MAYORISTAS</h5>
-        <h5>
-          Realizá tus pedidos mayoristas, venta online o comercializar productos
-        </h5>
-        <h5>CAMPOBASSO en puntos de venta</h5>
-      </div>
-      <div data-aos="fade-up" class="container-info-contacto-h5">
-        <h5>Mail a ventas@campobassoquesos.com</h5>
-        <h5>Tel. 011 3455-3497</h5>
-      </div>
-      <div data-aos="fade-up" class="container-info-contacto-h5">
-        <h5>VENTAS A INDUSTRIA GASTONONOMICA</h5>
-        <h5>Contáctate con un asesor comercial del sector</h5>
-      </div>
-      <div data-aos="fade-up" class="container-info-contacto-h5">
-        <h5>Mail a gastronomicos@campobassoquesos.com</h5>
-        <h5>Tel. 011 3455-3497</h5>
-      </div>
-    </div>
-    <!-- contact -->
-    <div class="contact">
-      <div class="container-form-and-title d-flex">
-        <div
-          data-aos="fade-up"
-          class="contacto-form col-10 justify-content-center text_align_center"
-        >
-          <h2>CONSULTAS</h2>
-          <p>
-            Si queres consultarnos o comentarnos algo siempre podes escribirnos
-            aqui!
-          </p>
+    <div class="container-iconos-varios">
+      <div data-aos="fade-up" class="container-icon-card border-right">
+        <img src="images/iconos-varios/Envios.svg" alt="" />
+        <div class="container-card-text">
+          <h1>ENVIOS</h1>
+          <p>A TODO EL PAIS</p>
         </div>
-        <form id="request" class="main_form">
-          <div class="row">
-            <div data-aos="fade-up" class="col-md-12">
-              <input
-                class="contactus"
-                placeholder="INGRESA TU NOMBRE Y APELLIDO"
-                type="type"
-                name=" Name"
-              />
-            </div>
-            <div data-aos="fade-up" class="col-md-12">
-              <input
-                class="contactus"
-                placeholder="TELEFONO"
-                type="type"
-                name="Phone Number"
-              />
-            </div>
-            <div data-aos="fade-up" class="col-md-12">
-              <input
-                class="contactus"
-                placeholder="EMAIL"
-                type="type"
-                name="Email"
-              />
-            </div>
-            <div data-aos="fade-up" class="col-md-12">
-              <textarea
-                class="textarea"
-                placeholder="CONSULTA O COMENTARIO"
-                type="type"
-                Message="Name"
-              ></textarea>
-            </div>
-            <div data-aos="fade-up" class="col-md-12">
-              <button class="send_btn">ENVIAR</button>
-            </div>
-          </div>
-        </form>
+      </div>
+      <div data-aos="fade-up" class="container-icon-card border-right">
+        <img src="images/iconos-varios/Retiro.svg" alt="" />
+        <div class="container-card-text">
+          <h1>RETIRO</h1>
+          <p>EN EL ALMACEN</p>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="container-icon-card card-xl">
+        <img src="images/iconos-varios//Paga.svg" alt="" />
+        <div class="container-card-text">
+          <h1 class="paga-text">PAGA <br /></h1>
+          <p class="paga-text">CON CUALQUIER <br />MEDIO DE PAGO</p>
+        </div>
       </div>
     </div>
-    <!-- contact -->
     <!-- section Quiero comercializar -->
     <div class="container-quiero-contacto">
       <div class="container-text-input">
@@ -316,31 +323,31 @@
     <!-- section-c -->
     <div class="section-c-nuestros">
       <div class="container-title">
-        <h1 data-aos="fade-right" class="creemos-simplicidad">
+        <h1 data-aos="fade-left" class="creemos-simplicidad">
           Creemos en la simplicidad y la autenticidad.
         </h1>
       </div>
       <div class="container-sellos">
         <img
-          data-aos="fade-left"
+          data-aos="fade-right"
           class="sellos-nosotros"
           src="images/Home/icon-sin-conservantes.svg"
           alt="cons"
         />
         <img
-          data-aos="fade-left"
+          data-aos="fade-right"
           class="sellos-nosotros"
           src="images/Home/icon-Natural.svg"
           alt="natu"
         />
         <img
-          data-aos="fade-left"
+          data-aos="fade-right"
           class="sellos-nosotros"
           src="images/Home/icon-100Queso.svg"
           alt="queso"
         />
         <img
-          data-aos="fade-left"
+          data-aos="fade-right"
           class="sellos-nosotros"
           src="images/Home/icon-SinTacc.svg"
           alt="tacc"

@@ -226,6 +226,7 @@ button {
 
 .text_align_center {
   text-align: center;
+  width: 300px;
 }
 
 .text_align_left {
@@ -517,8 +518,15 @@ slider
 .carousel-item img {
   width: 100%;
   object-fit: cover;
-  min-height: 887px;
   max-height: 887px;
+}
+
+.primera-vista {
+  min-height: 887px;
+}
+
+.segunda-vista {
+  min-height: 887px;
 }
 
 /** banner_main **/
@@ -699,6 +707,8 @@ slider
 
 .container-nosotros {
   top: 200px;
+  width: 100%;
+  padding: 50px;
 }
 
 .vaca-img {
@@ -799,6 +809,7 @@ slider
 
 .descubri_button {
   display: flex;
+  padding: 50px 0px;
 }
 
 .descubri_button a {
@@ -1049,15 +1060,33 @@ slider
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
-  justify-content: center;
 }
 
 .container-text-gramaje {
-  padding: 20px;
+  padding: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.text-cursiva {
+  font-family: "JALLIESTHA";
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.comprar-ahora-button {
+  background-color: #fff;
+  padding: 10px 20px;
+  width: 260px;
+}
+
+.comprar-ahora-button a {
+  font-size: 20px;
+  font-family: "MONTSERRAT";
+  font-weight: bold;
 }
 
 .section-campobasso-contacto {
@@ -1066,6 +1095,50 @@ slider
   align-items: center;
   gap: 30px;
   padding: 30px;
+  background-color: #000;
+}
+
+.section-campobasso-contacto h1 {
+  font-size: 50px;
+  color: #d9bc81;
+}
+
+.section-campobasso-contacto h2 {
+  font-size: 40px;
+  color: #d9bc81;
+}
+
+.section-campobasso-contacto p {
+  font-size: 30px;
+  color: #fff;
+  font-family: "HOLISPAY";
+}
+
+.container-mini-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+  width: 50%;
+}
+
+.container-mini-section img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.descargar-button {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.descargar-button a {
+  font-family: "MONTSERRAT";
+  color: #000;
 }
 
 .container-data {
@@ -1139,6 +1212,8 @@ slider
 
 .punto-de-venta p {
   color: #000;
+  font-family: "MONTSERRAT";
+  font-weight: 400;
 }
 
 .punto-de-venta-directa {
@@ -1148,10 +1223,25 @@ slider
   padding: 30px;
 }
 
-.punto-de-venta-directa p {
-  font-family: "MONTSERRAT";
-  font-size: 20px;
+.punto-de-venta-directa h1 {
+  font-family: "HOLISPAY";
+  font-size: 40px;
   color: #000;
+}
+
+.punto-de-venta-directa p {
+  font-family: "HOLISPAY";
+  font-size: 30px;
+  color: #000;
+}
+
+.container-puntos-img {
+  width: 100%;
+}
+
+.container-puntos-img img {
+  width: 100%;
+  max-height: 500px;
 }
 
 .container-quiero-text p {
@@ -1235,11 +1325,39 @@ slider
 .container-nosotros-bolsa-rallado {
   display: flex;
   background-color: #000;
+  max-height: 600px;
+  min-height: 600px;
+  width: 100%;
+}
+
+#carouselExampleControls {
+  max-height: 600px;
+  width: 100%;
+  min-height: 600px;
+}
+
+#container-carousel {
+  max-height: 600px;
+  width: 100%;
+  min-height: 600px;
+}
+
+.container-carousel-img {
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.container-carousel-img img {
+  max-height: 600px;
+  min-height: 600px;
 }
 
 .container-nosotros-bolsa-rallado img {
   width: 100%;
+
   object-fit: cover;
+  max-height: 600px;
+  min-height: 600px;
 }
 
 .container-nosotros-vaquitas img {
@@ -1253,13 +1371,13 @@ slider
   display: flex;
   padding: 100px;
   width: 100%;
-  max-height: 800px;
 }
 
 .container-cuidamos img {
   width: 100%;
   height: 600px;
   object-fit: cover;
+  max-height: 800px;
 }
 
 .container-cuidamos-text {
@@ -1357,6 +1475,7 @@ slider
 .container-mix-fondue img {
   object-fit: cover;
   max-height: 400px;
+  min-height: 400px;
   width: 100%;
 }
 
@@ -1384,6 +1503,7 @@ slider
 .container-provo-xl img {
   object-fit: cover;
   max-height: 400px;
+  min-height: 400px;
   width: 100%;
 }
 
@@ -1440,11 +1560,11 @@ slider
 }
 
 .container-iconos-varios {
-  padding: 0px 100px 100px 100px;
   display: flex;
   align-items: center;
   gap: 50px;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .container-icon-card {

@@ -4,5 +4,5 @@ window.addEventListener("load", () => {
 
   setTimeout(() => {
     spinnerWrapperEl.style.display = "none";
-  }, 700);
+  }, 1000);
 });

@@ -1,7 +1,49 @@
 /* Estilos generales para resoluciones mayores o iguales a 1321px */
+@media (min-width: 1659px) {
+  .container-cuidamos {
+    max-height: 800px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1660px) {
+  .container-cuidamos {
+    flex-direction: column;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 899px) {
+  .container-cuidamos img {
+    max-height: 400px;
+  }
+
+  .container-cuidamos-text {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .campobasso-tambito {
+    left: 0px;
+  }
+}
+
 @media (min-width: 1321px) {
   .logo-toggle {
     display: none;
+  }
+}
+
+@media (max-width: 1350px) {
+  .container-provo-mix {
+    flex-direction: column;
+  }
+
+  .container-provo-xl {
+    width: 100%;
+  }
+  .container-mix-fondue {
+    width: 100%;
   }
 }
 
@@ -47,10 +89,20 @@
   }
 }
 
+@media (max-width: 1179px) {
+  .container-text-gramaje {
+    padding: 50px;
+  }
+  .container-gramaje {
+    gap: 50px;
+  }
+}
+
 @media (max-width: 1024px) {
   .portfolio_quesos {
     flex-direction: column;
-    padding-top: 50px;
+    padding: 50px;
+    align-items: center;
   }
 
   .container-lechero-sellos {
@@ -87,6 +139,21 @@
     flex-direction: column;
     padding: 0px;
   }
+  .rallado-info h1 {
+    font-size: 40px;
+  }
+  .rallado-info {
+    padding-left: 30px;
+  }
+  .container-provoleta-probala img {
+    padding: 0px;
+  }
+  .container-mini-section {
+    width: 100%;
+  }
+  .section-campobasso-contacto h1 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1024px) {
@@ -98,7 +165,6 @@
 @media (max-width: 1250px) {
   .section-c {
     flex-direction: column;
-    height: 100vh;
   }
 
   .section-d {
@@ -109,7 +175,6 @@
     display: none;
   }
   .bakers {
-    min-width: 400px;
     min-height: 400px;
   }
   .section-c-nuestros {
@@ -120,6 +185,10 @@
   .container-sellos img {
     width: 100px;
     height: 100px;
+  }
+  .container-iconos-varios {
+    flex-direction: column;
+    padding-top: 100px;
   }
 }
 
@@ -263,16 +332,43 @@
   }
   .container-image-description {
     display: block;
+    width: 100%;
   }
   .container-image-description img {
     width: 100%;
+    height: 50%;
     object-fit: cover;
+  }
+  .container-provo-mix {
+    padding: 0px;
+  }
+  .container-almacen {
+    padding: 0px;
+  }
+  .container-almacen img {
+    min-height: 286px;
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
   .container-nuestro-canal h1 {
-    font-size: 25px;
+    font-size: 40px;
+  }
+  .container-nosotros-info {
+    padding: 0px;
+    gap: 20px;
+  }
+  .container-text-gramaje {
+    background-color: black;
+  }
+  .nuestro-canal {
+    width: 400px;
+  }
+  .contacta-asesor a {
+    padding: 0px;
+  }
+  .quesos-rallados-iconos {
+    padding-top: 450px;
   }
 }
 
@@ -286,6 +382,46 @@
   }
   .navigation .navbar-collapse {
     margin-top: 550px;
+  }
+}
+
+@media (max-width: 639px) {
+  .container-provoleta-text {
+    top: 10%;
+  }
+  .container-provoleta-text h3 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 3px 3px 5px black;
+  }
+  .container-almacen {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .veni-button {
+    right: 24%;
+    top: 110%;
+  }
+  .container-almacen-text {
+    width: 100%;
+  }
+  .container-almacen img {
+    width: 100%;
+  }
+  .container-provo-mix {
+    gap: 0px;
+  }
+  .container-iconos-varios {
+    padding-top: 300px;
+  }
+  .quesos-rallados-iconos {
+    padding-top: 450px;
+  }
+  .section-c {
+    padding: 0px;
+  }
+  .nuestros-iconos {
+    padding-top: 0px;
   }
 }
 
@@ -438,6 +574,13 @@
   .section-d-nosotros {
     height: 100vh;
   }
+  .container-provoxl-textmini {
+    align-items: end;
+    gap: 0px !important;
+  }
+  .fondue img {
+    max-height: 270px;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1250px) {
@@ -495,8 +638,10 @@
     padding: 20px;
   }
 
-  .container-vaca-info p {
-    display: none;
+  .vaca-img {
+    width: 100%;
+    max-width: 420px;
+    padding-bottom: 0px;
   }
   .rallado-info {
     width: 100%;
@@ -547,6 +692,19 @@
   .row {
     margin-right: 0px;
     margin-left: 0px;
+  }
+  .cotiza_button {
+    padding-top: 5px;
+    padding-bottom: 18px;
+  }
+  .container-provoleta-probala img {
+    min-height: 310px;
+  }
+  .container-provoleta-text h1 {
+    font-size: 50px;
+  }
+  .cotiza_button a {
+    width: 200px;
   }
 }
 @media (max-width: 450px) {
