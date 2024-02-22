@@ -5,6 +5,15 @@
   }
 }
 
+@media (max-width: 1500px) {
+  .portfolio_quesos {
+    padding-top: 50px;
+  }
+  #parme {
+    padding-top: 100px;
+  }
+}
+
 @media (min-width: 1025px) and (max-width: 1660px) {
   .container-cuidamos {
     flex-direction: column;
@@ -35,6 +44,12 @@
 }
 
 @media (max-width: 1350px) {
+  .portfolio_quesos {
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    padding-top: 150px;
+  }
   .container-provo-mix {
     flex-direction: column;
   }
@@ -67,6 +82,18 @@
     flex-direction: column;
     max-height: 800px;
   }
+  .footer-divider {
+    padding-right: 20px;
+    border-right: 3px solid black;
+    height: 70px;
+  }
+  .container-iconos-varios {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
 }
 
 /* Estilos para resoluciones entre 1200px y 1320px */
@@ -80,8 +107,7 @@
   .banner_main .bluid h1 {
     color: #fff;
     font-size: 90px;
-    line-height: 110px;
-    font-weight: bold;
+    line-height: 80px;
     padding-bottom: 25px;
   }
   .logo-toggle {
@@ -99,12 +125,6 @@
 }
 
 @media (max-width: 1024px) {
-  .portfolio_quesos {
-    flex-direction: column;
-    padding: 50px;
-    align-items: center;
-  }
-
   .container-lechero-sellos {
     padding: 100px 0px 0px 0px;
   }
@@ -186,9 +206,31 @@
     width: 100px;
     height: 100px;
   }
+
   .container-iconos-varios {
-    flex-direction: column;
-    padding-top: 100px;
+    gap: 100px;
+  }
+
+  .footer-divider {
+    border: none;
+  }
+  .container-card-text h1 {
+    font-size: 40px;
+    max-width: 140px;
+  }
+
+  .container-card-text p {
+    font-size: 13px;
+    line-height: 13px;
+    max-width: 140px;
+  }
+  .container-icon-card img {
+    max-width: 120px;
+    min-width: 90px;
+  }
+
+  .card-xl {
+    padding-right: 0px !important;
   }
 }
 
@@ -348,6 +390,15 @@
   .container-almacen img {
     min-height: 286px;
   }
+  .container-iconos-varios {
+    gap: 0px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 800px) {
+  .section-a {
+    gap: 200px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -399,7 +450,6 @@
     flex-direction: column;
   }
   .veni-button {
-    right: 24%;
     top: 110%;
   }
   .container-almacen-text {
@@ -581,6 +631,11 @@
   .fondue img {
     max-height: 270px;
   }
+  .container-iconos-varios {
+    flex-direction: column;
+    padding-top: 320px;
+    gap: 30px;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1250px) {
@@ -655,9 +710,6 @@
   .container-empleados {
     width: 100%;
   }
-  .descubri_button {
-    padding: 10px;
-  }
   .carousel-item-lechero img {
     width: 100%;
     object-fit: cover;
@@ -674,6 +726,21 @@
   }
   .container-nuestro-canal {
     padding-bottom: 20px;
+  }
+  .container-card-text {
+    max-width: 140px;
+  }
+  .ya-la-probaste a {
+    max-width: 200px !important;
+    text-align: center;
+    height: 80px;
+  }
+  .portfolio_quesos {
+    padding-top: 50px;
+  }
+  .descubri_button a {
+    font-size: 15px !important;
+    text-align: center;
   }
 }
 
@@ -698,13 +765,17 @@
     padding-bottom: 18px;
   }
   .container-provoleta-probala img {
-    min-height: 310px;
+    min-height: 369px;
   }
   .container-provoleta-text h1 {
     font-size: 50px;
   }
   .cotiza_button a {
-    width: 200px;
+    width: 300px;
+  }
+  .links-container {
+    padding-top: 30px;
+    gap: 30px;
   }
 }
 @media (max-width: 450px) {

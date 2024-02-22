@@ -45,7 +45,7 @@
     <header>
       <ul class="navbar-desktop">
         <li class="navbar-item">
-          <a href="home.html">HOME</a>
+          <a href="index.html">HOME</a>
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
@@ -57,11 +57,13 @@
           <span class="punto">•</span>
         </li>
         <div class="logo-container">
-          <img
-            class="navbar-desktop-logo"
-            src="images/logo-nav.svg"
-            alt="logo-desk"
-          />
+          <a href="index.html"
+            ><img
+              class="navbar-desktop-logo"
+              src="images/logo-nav.svg"
+              alt="logo-desk"
+            />
+          </a>
         </div>
         <li class="navbar-item">
           <span class="punto">•</span>
@@ -78,11 +80,13 @@
       </ul>
       <ul class="navbar-mobile">
         <li class="navbar-item">
-          <img
-            class="navbar-mobile-logo"
-            src="images/logo-nav.svg"
-            alt="logo-mob"
-          />
+          <a href="index.html"
+            ><img
+              class="navbar-desktop-logo"
+              src="images/logo-nav.svg"
+              alt="logo-desk"
+            />
+          </a>
         </li>
         <li class="navbar-item container-menu-icon">
           <button
@@ -98,7 +102,7 @@
       <ul class="navbar-mobile-list">
         <li class="navbar-item">
           <span class="punto">•</span>
-          <a href="home.html">HOME</a>
+          <a href="index.html">HOME</a>
         </li>
         <li class="navbar-item">
           <span class="punto">•</span>
@@ -153,10 +157,11 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div   data-bs-interval="2000"
+        data-bs-pause="hover" class="carousel-item active">
           <img
             class="d-flex w-100 primera-vista"
-            src="images/variety-mold-cheese-with-close-up.jpg"
+            src="images/ImagenRallado-X-Mayor.jpg"
             alt="First slide"
           />
           <div class="banner_main">
@@ -168,7 +173,8 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div   data-bs-interval="2000"
+        data-bs-pause="hover" class="carousel-item">
           <img
             class="d-flex w-100 segunda-vista"
             src="images/vista-primer-plano-piernas-granjero-que-trabaja-hierba-fresca-establo-animales.jpg"
@@ -425,26 +431,30 @@
 
       </div>
     </div>
-    <div class="container-iconos-varios quesos-rallados-iconos">
-      <div data-aos="fade-up" class="container-icon-card border-right">
+    <div class="container-iconos-varios">
+      <div data-aos="fade-up" class="container-icon-card">
         <img src="images/iconos-varios/Envios.svg" alt="" />
-        <div class="container-card-text">
+        <div class="container-card-text footer-divider">
           <h1>ENVIOS</h1>
           <p>A TODO EL PAIS</p>
         </div>
       </div>
-      <div data-aos="fade-up" class="container-icon-card border-right">
-        <img src="images/iconos-varios/Retiro.svg" alt="" />
-        <div class="container-card-text">
-          <h1>RETIRO</h1>
-          <p>EN EL ALMACEN</p>
+
+      <div class="container-icon-card">
+        <img data-aos="fade-up" src="images/iconos-varios/Retiro.svg" alt="" />
+        <div class="container-card-text footer-divider">
+          <h1 data-aos="fade-up">RETIRO</h1>
+          <p data-aos="fade-up">EN EL ALMACEN</p>
         </div>
       </div>
-      <div data-aos="fade-up" class="container-icon-card card-xl">
-        <img src="images/iconos-varios//Paga.svg" alt="" />
+
+      <div class="container-icon-card card-xl">
+        <img data-aos="fade-up" src="images/iconos-varios//Paga.svg" alt="" />
         <div class="container-card-text">
-          <h1 class="paga-text">PAGA <br /></h1>
-          <p class="paga-text">CON CUALQUIER <br />MEDIO DE PAGO</p>
+          <h1 data-aos="fade-up" class="paga-text">PAGA <br /></h1>
+          <p data-aos="fade-up" class="paga-text">
+            CON CUALQUIER <br />MEDIO DE PAGO
+          </p>
         </div>
       </div>
     </div>

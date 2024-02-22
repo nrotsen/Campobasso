@@ -529,6 +529,10 @@ slider
   min-height: 887px;
 }
 
+#agricultor-banner {
+  padding-top: 0px !important;
+}
+
 /** banner_main **/
 
 #top_section {
@@ -562,6 +566,10 @@ slider
 #myCarousel a.carousel-control-next,
 #myCarousel a.carousel-control-prev {
   display: none;
+}
+
+.home-banner {
+  padding-bottom: 60px;
 }
 
 .relative {
@@ -627,14 +635,14 @@ slider
 .banner_main .bluid h1 {
   color: #fff;
   font-size: 100px;
-  line-height: 110px;
+  line-height: 80px;
   padding-bottom: 25px;
 }
 
 .banner_main .bluid p {
   color: #fff;
   line-height: 25px;
-  font-weight: 500;
+  font-weight: 600;
   padding-bottom: 50px;
   font-size: 17px;
 }
@@ -660,7 +668,6 @@ slider
   align-items: center;
   flex-direction: column;
   position: relative;
-  padding-bottom: 30px;
 }
 
 .container-vaca-portfolio {
@@ -708,13 +715,13 @@ slider
 .container-nosotros {
   top: 200px;
   width: 100%;
-  padding: 50px;
+  padding: 0 50px 50px 50px;
 }
 
 .vaca-img {
   width: 100%;
   max-width: 420px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 #rallados-potes {
@@ -752,6 +759,12 @@ slider
 .container-portfolio-queso-img {
   position: relative;
   background-color: black;
+}
+
+.portfolio_quesos {
+  max-width: 80%;
+  gap: 50px;
+  padding-top: 20px;
 }
 
 .portfolio_img {
@@ -797,7 +810,9 @@ slider
 }
 
 .middle hr {
-  color: #fff;
+  color: #d9bc81;
+  width: 100px;
+  border: 1px solid #d9bc81;
 }
 
 .middle p {
@@ -814,8 +829,8 @@ slider
 
 .descubri_button a {
   display: flex;
-  width: 350px;
-  height: 50px;
+  width: 400px;
+  height: 80px;
   background-color: #000;
   color: white;
   align-content: center;
@@ -1042,7 +1057,7 @@ slider
 .section-c-nuestros {
   display: flex;
   background-color: #dddddd;
-  padding: 30px;
+  padding: 100px;
   width: 100%;
 }
 
@@ -1160,6 +1175,12 @@ slider
   height: 500px;
 }
 
+.container-puntos-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container-info-contacto {
   display: flex;
   flex-direction: column;
@@ -1236,7 +1257,12 @@ slider
 }
 
 .container-puntos-img {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
 }
 
 .container-puntos-img img {
@@ -1275,7 +1301,6 @@ slider
 
 .input-ingresa-aca {
   padding: 5px 20px;
-  text-align: center;
   background-color: #fff;
   border: 1px solid black;
   font-family: "MONTSERRAT";
@@ -1342,6 +1367,10 @@ slider
   min-height: 600px;
 }
 
+#parme {
+  padding-top: 50px;
+}
+
 .container-carousel-img {
   max-height: 600px;
   min-height: 600px;
@@ -1369,8 +1398,16 @@ slider
 
 .container-cuidamos {
   display: flex;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+.container-wrapper-cuidamos {
+  display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-cuidamos img {
@@ -1383,7 +1420,7 @@ slider
 .container-cuidamos-text {
   background-color: #000;
   width: 100%;
-  padding: 100px;
+  padding: 50px;
 }
 
 .container-lechero-sellos {
@@ -1450,14 +1487,25 @@ slider
   top: 30%;
 }
 
+.container-provoxl-textmini h1 {
+  line-height: 75px;
+}
+
+.container-mix-text {
+  line-height: 50px;
+}
+
 .container-provoleta-text h1 {
   font-size: 60px;
+  text-shadow: 0 1px 3px black;
+  padding-bottom: 10px;
 }
 
 .container-provoleta-text h3 {
   font-size: 30px;
+  line-height: 30px;
   color: #fff;
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 0px 3px 5px black;
 }
 
 .container-provo-mix {
@@ -1487,6 +1535,7 @@ slider
 
 .container-mix-text h1 {
   font-size: 60px;
+  text-shadow: 0 1px 3px black;
 }
 
 .container-mix-text h3 {
@@ -1510,7 +1559,7 @@ slider
 .container-provoxl-text {
   position: absolute;
   left: 12%;
-  top: 7%;
+  top: 12%;
 }
 
 .container-provoxl-textmini {
@@ -1522,7 +1571,7 @@ slider
 
 .container-provoxl-textmini h1 {
   font-size: 80px;
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 0 3px 5px black;
 }
 
 .container-almacen {
@@ -1562,7 +1611,7 @@ slider
 .container-iconos-varios {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 300px;
   justify-content: center;
   padding-bottom: 50px;
 }
@@ -1570,24 +1619,15 @@ slider
 .container-icon-card {
   display: flex;
   align-items: center;
-  padding-right: 200px;
+  justify-content: center;
 }
 
 .paga-text {
   width: 170px;
 }
 
-.border-right {
-  border-right: 1px solid black !important;
-  height: 70px;
-}
-
 .container-icon-card img {
   max-width: 200px;
-}
-
-.card-xl {
-  width: 400px;
 }
 
 .container-card-text {
@@ -1598,6 +1638,12 @@ slider
 
 .container-card-text h1 {
   font-size: 50px;
+}
+
+.footer-divider {
+  padding-right: 100px;
+  border-right: 3px solid black;
+  height: 70px;
 }
 
 .container-card-text p {
@@ -1631,13 +1677,15 @@ slider
 
 .cotiza_button a {
   display: flex;
-  width: 250px;
-  height: 50px;
+  width: 300px;
+  height: 60px;
   background-color: #000;
   color: white;
   align-content: center;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /** contact section **/
@@ -1683,7 +1731,10 @@ slider
   color: #888888;
   font-size: 18px;
   font-weight: normal;
-  padding: 57px 15px 0 15px;
+  padding: 0px 0px 0 15px;
+  font-family: "MONTSERRAT";
+  font-size: 16px;
+  font-weight: normal;
   border-radius: 0;
   height: 150px;
 }
@@ -1879,6 +1930,10 @@ ul.social_icon li a:hover {
   color: #fff;
 }
 
+.links-container {
+  gap: 100px;
+}
+
 /** end footer **/
 
 /** Whatsapp floating **/
@@ -1896,6 +1951,10 @@ ul.social_icon li a:hover {
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+}
+
+.float:hover {
+  color: #000;
 }
 
 .my-float {

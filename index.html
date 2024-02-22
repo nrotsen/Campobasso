@@ -45,7 +45,7 @@
     <header data-aos="fade-down">
       <ul class="navbar-desktop">
         <li class="navbar-item">
-          <a href="home.html">HOME</a>
+          <a href="index.html">HOME</a>
           <span class="punto">•</span>
         </li>
         <li class="navbar-item">
@@ -57,11 +57,13 @@
           <span class="punto">•</span>
         </li>
         <div class="logo-container">
-          <img
-            class="navbar-desktop-logo"
-            src="images/logo-nav.svg"
-            alt="logo-desk"
-          />
+          <a href="index.html"
+            ><img
+              class="navbar-desktop-logo"
+              src="images/logo-nav.svg"
+              alt="logo-desk"
+            />
+          </a>
         </div>
         <li class="navbar-item">
           <span class="punto">•</span>
@@ -141,7 +143,7 @@
     <!-- start slider section -->
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide home-banner"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">
@@ -153,7 +155,11 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item carousel-image active">
+        <div
+          data-bs-interval="2000"
+          data-bs-pause="hover"
+          class="carousel-item carousel-image active"
+        >
           <img
             class="d-flex w-100 primera-vista"
             src="images/home-primeravista.jpeg"
@@ -174,7 +180,11 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item carousel-image">
+        <div
+          data-bs-interval="2000"
+          data-bs-pause="hover"
+          class="carousel-item carousel-image"
+        >
           <img
             class="d-flex w-100 segunda-vista"
             src="images/vista-primer-plano-piernas-granjero-que-trabaja-hierba-fresca-establo-animales.jpg"
@@ -199,8 +209,10 @@
     </div>
     <!-- end slider section -->
     <!-- section-a -->
+    <!-- <div class="vaca-wrapper">
+      <img class="vaca-con-text-img" src="images/VACA con text.png" alt="">
+    </div> -->
     <div class="section-a">
-      <!-- vaca y texto section-->
       <div class="container-vaca-portfolio">
         <img
           data-aos="fade-up"
@@ -224,7 +236,7 @@
       </div>
       <!-- end vaca y texto section-->
       <!-- portfolio section -->
-      <div class="portfolio_quesos d-flex w-100 justify-content-around">
+      <div class="portfolio_quesos d-flex w-100 justify-content-center">
         <div class="text_align_center">
           <div data-aos="fade-up" class="container-portfolio-queso-img">
             <img
@@ -235,7 +247,7 @@
             <div class="middle">
               <p>QUESO</p>
               <h1>PARMESANO</h1>
-              <hr />
+              <hr class="gold-divider" />
               <a href="nuestros-quesos.html#parme">
                 <p>VER MAS</p>
               </a>
@@ -315,10 +327,14 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div
+          data-bs-interval="2000"
+          data-bs-pause="hover"
+          class="carousel-item active"
+        >
           <img
             class="d-flex w-100 primera-vista"
-            src="images/variety-mold-cheese-with-close-up.jpg"
+            src="images/ImagenRallado-X-Mayor.jpg"
             alt="First slide"
           />
           <div class="banner_main">
@@ -339,10 +355,14 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
+        <div
+          data-bs-interval="2000"
+          data-bs-pause="hover"
+          class="carousel-item"
+        >
           <img
             class="d-flex w-100 segunda-vista"
-            src="images/vista-primer-plano-piernas-granjero-que-trabaja-hierba-fresca-establo-animales.jpg"
+            src="images/chipa-banner.png"
             alt="Second slide"
           />
           <div class="banner_main">
@@ -480,7 +500,7 @@
         <div class="container-provoxl-text">
           <div class="container-provoxl-textmini">
             <h1 data-aos="fade-up">Pro- <br />vo- <br />leta <br />XL</h1>
-            <div class="cotiza_button">
+            <div class="cotiza_button ya-la-probaste">
               <a data-aos="fade-up" href="nuestros.html#provoleta"
                 >YA LA PROBASTE?</a
               >
@@ -517,20 +537,22 @@
     </div>
 
     <div class="container-iconos-varios">
-      <div data-aos="fade-up" class="container-icon-card border-right">
+      <div data-aos="fade-up" class="container-icon-card">
         <img src="images/iconos-varios/Envios.svg" alt="" />
-        <div class="container-card-text">
+        <div class="container-card-text footer-divider">
           <h1>ENVIOS</h1>
           <p>A TODO EL PAIS</p>
         </div>
       </div>
-      <div class="container-icon-card border-right">
+
+      <div class="container-icon-card">
         <img data-aos="fade-up" src="images/iconos-varios/Retiro.svg" alt="" />
-        <div class="container-card-text">
+        <div class="container-card-text footer-divider">
           <h1 data-aos="fade-up">RETIRO</h1>
           <p data-aos="fade-up">EN EL ALMACEN</p>
         </div>
       </div>
+
       <div class="container-icon-card card-xl">
         <img data-aos="fade-up" src="images/iconos-varios//Paga.svg" alt="" />
         <div class="container-card-text">
@@ -548,7 +570,7 @@
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-md-3">
-              <a class="logo_footer" href="home.html"
+              <a class="logo_footer" href="index.html"
                 ><img src="images/Home/logo-footer.svg" alt="#"
               /></a>
               <div class="container-footer-icons">
