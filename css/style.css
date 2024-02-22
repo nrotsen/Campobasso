@@ -512,21 +512,21 @@ slider
 
 .carousel-item {
   width: 100%;
-  object-fit: cover;
 }
 
 .carousel-item img {
   width: 100%;
   object-fit: cover;
-  max-height: 887px;
+  max-height: 800px;
+  min-height: 800px;
 }
 
 .primera-vista {
-  min-height: 887px;
+  min-height: 800px;
 }
 
 .segunda-vista {
-  min-height: 887px;
+  min-height: 800px !important;
 }
 
 #agricultor-banner {
@@ -643,8 +643,8 @@ slider
   color: #fff;
   line-height: 25px;
   font-weight: 600;
-  padding-bottom: 50px;
-  font-size: 17px;
+  padding-bottom: 35px;
+  font-size: 20px;
 }
 
 .banner_main .bluid .read_more {
@@ -716,6 +716,11 @@ slider
   top: 200px;
   width: 100%;
   padding: 0 50px 50px 50px;
+  margin-top: 30px;
+}
+
+.nuestra-empresa {
+  margin-top: -50px !important;
 }
 
 .vaca-img {
@@ -815,11 +820,17 @@ slider
   border: 1px solid #d9bc81;
 }
 
-.middle p {
+.middle a p {
   color: white;
   font-family: "MONTSERRAT";
   font-weight: bold;
+}
+
+.middle-queso {
+  color: #d9bc81;
   opacity: 0.5;
+  font-weight: bold;
+  font-family: "MONTSERRAT";
 }
 
 .descubri_button {
@@ -1116,11 +1127,13 @@ slider
 .section-campobasso-contacto h1 {
   font-size: 50px;
   color: #d9bc81;
+  margin-top: -100px;
 }
 
 .section-campobasso-contacto h2 {
   font-size: 40px;
   color: #d9bc81;
+  margin-top: 20px;
 }
 
 .section-campobasso-contacto p {
@@ -1149,6 +1162,8 @@ slider
 .descargar-button {
   background-color: #fff;
   padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: 700;
 }
 
 .descargar-button a {
@@ -1221,7 +1236,6 @@ slider
 
 .mobile-info {
   text-align: center;
-  padding: 30px;
 }
 
 .punto-de-venta {
@@ -1712,23 +1726,23 @@ slider
 }
 
 .main_form .contactus {
-  border: #d2d2d3 solid 1px;
+  border: #000000 solid 1px;
   padding: 0 15px;
   margin-bottom: 25px;
   width: 100%;
   height: 71px;
   background: #fff;
-  color: #888888;
+  color: #000000 !important;
   font-size: 16px;
   font-weight: normal;
 }
 
 .main_form .textarea {
-  border: #d2d2d3 solid 1px;
+  border: #000000 solid 1px;
   margin-bottom: 25px;
   width: 100%;
   background: #fff;
-  color: #888888;
+  color: #000000 !important;
   font-size: 18px;
   font-weight: normal;
   padding: 0px 0px 0 15px;
@@ -1760,7 +1774,7 @@ slider
 }
 
 #request *::placeholder {
-  color: #888888;
+  color: #000;
   opacity: 1;
 }
 

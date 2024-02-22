@@ -81,11 +81,10 @@ h1 {
 .bluid p {
   margin: 0px;
   padding: 0;
-  font-weight: 800;
   font-size: 19px;
   line-height: 28px;
   font-family: "MONTSERRAT";
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-shadow: 1px 1px 3px #000;
 }
 
@@ -365,11 +364,18 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  height: 600px;
 }
 
 .container-cuidamos-text h3 {
   color: #d9bc81;
   font-size: 40px;
+}
+
+@media (min-width: 1251px) {
+  .container-cuidamos-text h3 {
+    font-size: 35px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1250px) {

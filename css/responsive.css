@@ -16,7 +16,6 @@
 
 @media (min-width: 1025px) and (max-width: 1660px) {
   .container-cuidamos {
-    flex-direction: column;
     padding: 0px;
   }
 }
@@ -40,6 +39,12 @@
 @media (min-width: 1321px) {
   .logo-toggle {
     display: none;
+  }
+}
+
+@media (min-width: 1351px) and (max-width: 1472px) {
+  .container-provoxl-textmini {
+    gap: 50px;
   }
 }
 
@@ -121,6 +126,22 @@
   }
   .container-gramaje {
     gap: 50px;
+  }
+  .container-cuidamos {
+    flex-direction: column;
+    height: auto;
+  }
+  .container-cuidamos img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .container-cuidamos-text {
+    max-height: 500px;
+  }
+  .container-cuidamos-text h3 {
+    color: #d9bc81;
+    font-size: 30px !important;
   }
 }
 
@@ -392,6 +413,7 @@
   }
   .container-iconos-varios {
     gap: 0px;
+    margin-top: 50px;
   }
 }
 
@@ -431,8 +453,12 @@
   .bluid .cotiza {
     display: flex;
   }
-  .navigation .navbar-collapse {
+
+  .bluid .navigation .navbar-collapse {
     margin-top: 550px;
+  }
+  .container-cuidamos-text h3 {
+    font-size: 25px !important;
   }
 }
 
@@ -462,7 +488,7 @@
     gap: 0px;
   }
   .container-iconos-varios {
-    padding-top: 300px;
+    padding-top: 200px;
   }
   .quesos-rallados-iconos {
     padding-top: 450px;
@@ -472,6 +498,12 @@
   }
   .nuestros-iconos {
     padding-top: 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 799px) {
+  .container-nosotros-bolsa-rallado {
+    margin-bottom: 200px;
   }
 }
 
@@ -492,7 +524,7 @@
   }
   .banner_main .bluid h1 {
     font-size: 50px;
-    line-height: 59px;
+    line-height: 51px;
   }
   #top_section {
     height: 678px;
@@ -622,7 +654,8 @@
     object-fit: cover;
   }
   .section-d-nosotros {
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 400px;
   }
   .container-provoxl-textmini {
     align-items: end;
@@ -633,8 +666,14 @@
   }
   .container-iconos-varios {
     flex-direction: column;
-    padding-top: 320px;
+    padding-top: 270px;
     gap: 30px;
+  }
+  .icons-footer {
+    margin-top: -300px;
+  }
+  .icons-footer-xmayor {
+    margin-top: -200px;
   }
 }
 
@@ -755,6 +794,7 @@
     display: flex;
     top: 100px;
     justify-content: center;
+    margin-top: -150px;
   }
   .row {
     margin-right: 0px;
