@@ -599,6 +599,11 @@ slider
   padding: 100px;
 }
 
+.provo-carousel-img {
+  max-height: 600px;
+  min-height: 600px;
+}
+
 .nosotros-slider {
   padding-bottom: 300px;
 }
