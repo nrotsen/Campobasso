@@ -443,6 +443,12 @@
   .quesos-rallados-iconos {
     padding-top: 450px;
   }
+  .carousel-provoletas {
+    padding: 0px;
+  }
+  .carousel-cap-provo {
+    padding-bottom: 0px;
+  }
 }
 
 /* Estilos para resoluciones menores a 770px */

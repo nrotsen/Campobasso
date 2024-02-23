@@ -591,6 +591,14 @@ slider
   padding-bottom: 300px;
 }
 
+.carousel-cap-provo {
+  left: 8% !important;
+}
+
+.carousel-provoletas {
+  padding: 100px;
+}
+
 .nosotros-slider {
   padding-bottom: 300px;
 }
