@@ -1605,7 +1605,7 @@ slider
 .container-almacen {
   width: 100%;
   display: flex;
-  padding: 0px 100px 100px 100px;
+  padding: 0px 100px 50px 100px;
   max-height: 400px;
   position: relative;
 }
@@ -1649,8 +1649,7 @@ slider
   align-items: center;
   justify-content: center;
 }
-
-.paga-text {
+É é Á á Í í Ó ó Ú ú .paga-text {
   width: 170px;
 }
 
