@@ -65,6 +65,9 @@
   .container-mix-fondue {
     width: 100%;
   }
+  .carousel-cap-provo {
+    padding-bottom: 50px;
+  }
 }
 
 @media (min-width: 1024px) {
