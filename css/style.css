@@ -1639,7 +1639,7 @@ slider
 .container-iconos-varios {
   display: flex;
   align-items: center;
-  gap: 300px;
+  gap: 200px;
   justify-content: center;
   padding-bottom: 50px;
 }
@@ -1655,7 +1655,7 @@ slider
 }
 
 .container-icon-card img {
-  max-width: 200px;
+  max-width: 130px;
 }
 
 .container-card-text {
