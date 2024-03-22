@@ -248,7 +248,7 @@ button {
 }
 
 .navbar-desktop-logo {
-  height: 80px;
+  height: 110px;
 }
 
 .navbar-mobile-logo {
@@ -363,10 +363,10 @@ header ul {
 .wavy {
   display: flex;
   overflow: hidden;
-  width: 25%;
+  width: 26%;
   position: absolute;
   z-index: 10;
-  left: 37.5%;
+  left: 35.5%;
   top: 140px;
 }
 
@@ -657,7 +657,7 @@ slider
   color: #fff;
   line-height: 25px;
   font-weight: 600;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   font-size: 20px;
 }
 
@@ -670,6 +670,10 @@ slider
 .banner_main .bluid .read_more:hover {
   color: #fff;
   background: #0e0b01;
+}
+
+#iconos-varios {
+  padding-top: 100px;
 }
 
 /** section-a **/
@@ -715,7 +719,6 @@ slider
 .container-nosotros-rallado-titulo {
   display: flex;
   flex-direction: column;
-  padding: 50px;
   position: relative;
   width: 50%;
   text-align: center;
@@ -773,6 +776,7 @@ slider
   text-align: center;
   width: 100%;
   padding: 0px 150px 0px 150px;
+  align-items: center;
 }
 
 .container-portfolio-queso-img {
@@ -886,9 +890,23 @@ slider
 }
 
 .container-description-nuestros {
-  width: 100%;
-  padding: 100px;
+  width: 50%;
+  padding: 50px;
   background-color: #e0e0e0;
+}
+
+.container-description-nuestros-carousel {
+  width: 50%;
+}
+
+.provo-img-carousel-nuestros {
+  min-height: 900px !important;
+  max-height: 900px !important;
+}
+
+.container-carousel-img-provo {
+  min-height: 900px !important;
+  max-height: 900px !important;
 }
 
 /** section-b **/
@@ -1216,7 +1234,7 @@ slider
   align-items: center;
   gap: 30px;
   background-color: #cdd1d3;
-  padding: 30px;
+  padding: 100px;
 }
 
 .container-info-contacto h1 {
@@ -1250,6 +1268,22 @@ slider
 
 .mobile-info {
   text-align: center;
+  font-family: "MONTSERRAT";
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.punto-de-venta-directa p {
+  font-family: "MONTSERRAT" !important;
+  font-size: 20px !important;
+  font-weight: 500;
+}
+
+.venta-fabrica-p {
+  margin-bottom: 30px;
+  font-size: 20px !important;
+  font-weight: 500;
 }
 
 .punto-de-venta {
@@ -1262,7 +1296,7 @@ slider
 .punto-de-venta p {
   color: #000;
   font-family: "MONTSERRAT";
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .punto-de-venta-directa {
@@ -1304,6 +1338,22 @@ slider
   position: relative;
 }
 
+.descargar-button-black {
+  background-color: #000;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.puntos-de-venta-title {
+  margin: 50px 0px 30px 0px;
+}
+.descargar-button-black a {
+  color: #fff;
+  font-family: "MONTSERRAT";
+}
+
 .container-quiero-img {
   position: absolute;
   width: 150px;
@@ -1325,6 +1375,23 @@ slider
   align-items: center;
   align-content: center;
   gap: 30px;
+}
+
+.venta-direct-text {
+  font-family: "MONTSERRAT";
+  font-size: 30px !important;
+  font-weight: 500 !important;
+}
+
+.container-mini-section p {
+  font-family: "MONTSERRAT";
+  line-height: 35px;
+}
+
+.text-contact-sub {
+  font-family: "MONTSERRAT" !important;
+  font-weight: 500;
+  font-size: 20px !important;
 }
 
 .input-ingresa-aca {
@@ -1358,7 +1425,7 @@ slider
 
 .section-d-nosotros {
   display: flex;
-  padding: 100px;
+  padding: 100px 100px 0px 100px;
   max-height: 800px;
   justify-content: center;
 }
@@ -1373,6 +1440,11 @@ slider
   width: 100%;
   max-height: 500px;
   object-fit: cover;
+}
+
+.provo-vista {
+  max-height: 850px !important;
+  min-height: 850px !important;
 }
 
 .container-nosotros-bolsa-rallado {
@@ -1649,8 +1721,21 @@ slider
   align-items: center;
   justify-content: center;
 }
-É é Á á Í í Ó ó Ú ú .paga-text {
-  width: 170px;
+.medios-paga {
+  padding-top: 20px;
+}
+.medios-p {
+  margin: 0px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+@media (max-width: 1270px) {
+  .medios-p {
+    font-size: 8px;
+  }
 }
 
 .container-icon-card img {
@@ -1682,7 +1767,7 @@ slider
 .bluid-provo {
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  padding-bottom: 300px;
+  padding-bottom: 150px;
   display: flex !important;
   flex-direction: column;
   align-items: start;
@@ -1837,6 +1922,12 @@ footer {
   height: 66px;
   width: 100%;
   font-size: 17px;
+}
+
+.adress-footer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .subs_btn {

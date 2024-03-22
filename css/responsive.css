@@ -102,6 +102,16 @@
     justify-content: center;
     padding-bottom: 50px;
   }
+  #provo-savo {
+    flex-direction: column;
+  }
+  .container-description-nuestros {
+    width: 100%;
+  }
+
+  .container-description-nuestros-carousel {
+    width: 100%;
+  }
 }
 
 /* Estilos para resoluciones entre 1200px y 1320px */
@@ -243,11 +253,6 @@
     max-width: 140px;
   }
 
-  .container-card-text p {
-    font-size: 13px;
-    line-height: 13px;
-    max-width: 140px;
-  }
   .container-icon-card img {
     max-width: 120px;
     min-width: 90px;
@@ -485,7 +490,7 @@
     flex-direction: column;
   }
   .veni-button {
-    top: 110%;
+    top: 140%;
   }
   .container-almacen-text {
     width: 100%;
@@ -675,7 +680,7 @@
   }
   .container-iconos-varios {
     flex-direction: column;
-    padding-top: 270px;
+    padding-top: 350px;
     gap: 30px;
   }
   .icons-footer {
@@ -683,6 +688,11 @@
   }
   .icons-footer-xmayor {
     margin-top: -200px;
+  }
+  .adress-footer-container {
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
   }
 }
 
@@ -717,7 +727,7 @@
   }
 
   .bluid-provo {
-    padding-bottom: 150px;
+    padding-bottom: 10px;
   }
 
   .rallado-plateado {
