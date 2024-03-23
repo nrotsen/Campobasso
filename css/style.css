@@ -1933,6 +1933,12 @@ footer {
   padding-top: 90px;
 }
 
+@media (max-width: 500px) {
+  .mobile-nopadding {
+    padding: 0 !important;
+  }
+}
+
 .newslatter_form {
   display: flex;
   align-items: center;
