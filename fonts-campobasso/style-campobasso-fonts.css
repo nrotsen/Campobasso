@@ -134,9 +134,54 @@ h1 {
   font-weight: 600;
 }
 
+.descubri_button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
 .cotiza_button a {
   font-family: "MONTSERRAT";
   letter-spacing: 2px;
+}
+
+.cotiza_button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.porque-button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.pedilo-button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.contacta-asesor a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.comprar-ahora-button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.descargar-button-black a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.descargar-button a:hover {
+  font-weight: 800;
+  color: #d9bc81;
+}
+
+.send_btn:hover {
+  font-weight: 800;
+  color: #d9bc81 !important;
 }
 
 .rallado-info h1 {
@@ -441,6 +486,6 @@ h1 {
   }
 
   .container-info-contacto h5 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }

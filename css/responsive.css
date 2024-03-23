@@ -457,6 +457,9 @@
   .carousel-cap-provo {
     padding-bottom: 0px;
   }
+  #icono {
+    margin-top: 150px;
+  }
 }
 
 /* Estilos para resoluciones menores a 770px */
@@ -473,6 +476,9 @@
   }
   .container-cuidamos-text h3 {
     font-size: 25px !important;
+  }
+  #icono {
+    padding-top: 100px !important;
   }
 }
 

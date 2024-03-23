@@ -676,6 +676,10 @@ slider
   padding-top: 100px;
 }
 
+#icono {
+  margin-top: 50px;
+}
+
 /** section-a **/
 
 .section-a {
@@ -769,6 +773,10 @@ slider
     justify-content: center;
     gap: 30px;
   }
+}
+
+#add-nuestros {
+  margin-top: 50px;
 }
 
 .container-vaca-info {
@@ -1407,7 +1415,7 @@ slider
 .text-contact-sub {
   font-family: "MONTSERRAT" !important;
   font-weight: 500;
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 .input-ingresa-aca {
