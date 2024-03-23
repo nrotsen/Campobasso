@@ -501,9 +501,6 @@
   .container-provo-mix {
     gap: 0px;
   }
-  .container-iconos-varios {
-    padding-top: 200px;
-  }
   .quesos-rallados-iconos {
     padding-top: 450px;
   }
@@ -680,7 +677,6 @@
   }
   .container-iconos-varios {
     flex-direction: column;
-    padding-top: 350px;
     gap: 30px;
   }
   .icons-footer {

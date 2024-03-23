@@ -746,13 +746,29 @@ slider
   padding-bottom: 100px;
 }
 
-#rallados-potes {
-  padding-bottom: 100px;
-}
-
 .nosotros-img {
   width: 100%;
   max-width: 800px;
+}
+
+.container-iconos-varios-index {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+@media (max-width: 1024px) {
+  .container-iconos-varios-index {
+    margin-top: 400px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 .container-vaca-info {
