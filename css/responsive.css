@@ -423,6 +423,9 @@
     gap: 0px;
     margin-top: 50px;
   }
+  .container-almacen-text h1 {
+    font-size: 38px;
+  }
 }
 
 @media (min-width: 551px) and (max-width: 800px) {

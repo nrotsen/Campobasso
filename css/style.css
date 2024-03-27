@@ -366,7 +366,7 @@ header ul {
   width: 26%;
   position: absolute;
   z-index: 10;
-  left: 35.5%;
+  left: 36.5%;
   top: 140px;
 }
 
@@ -894,6 +894,7 @@ slider
 .cucharas-rallados {
   width: 100%;
   object-fit: cover;
+  margin-top: 30px;
 }
 
 .container-nuestro-canal {
@@ -1187,13 +1188,13 @@ slider
 }
 
 .section-campobasso-contacto h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #d9bc81;
   margin-top: 20px;
 }
 
 .section-campobasso-contacto p {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   font-family: "HOLISPAY";
 }
@@ -1295,12 +1296,21 @@ slider
   font-family: "MONTSERRAT";
   color: #000;
   font-weight: 500;
-  margin-bottom: 50px;
+}
+
+.container-last-info p {
+  font-family: "MONTSERRAT" !important;
+  margin-top: 30px;
+}
+
+.container-info p {
+  font-family: "MONTSERRAT" !important;
+  margin-top: 30px;
 }
 
 .punto-de-venta-directa p {
   font-family: "MONTSERRAT" !important;
-  font-size: 20px !important;
+  font-size: 17px !important;
   font-weight: 500;
 }
 
@@ -1332,7 +1342,7 @@ slider
 
 .punto-de-venta-directa h1 {
   font-family: "HOLISPAY";
-  font-size: 40px;
+  font-size: 30px;
   color: #000;
 }
 
@@ -1403,7 +1413,7 @@ slider
 
 .venta-direct-text {
   font-family: "MONTSERRAT";
-  font-size: 30px !important;
+  font-size: 20px !important;
   font-weight: 500 !important;
 }
 
@@ -1480,9 +1490,9 @@ slider
 }
 
 #carouselExampleControls {
-  max-height: 600px;
+  max-height: 800px;
   width: 100%;
-  min-height: 600px;
+  min-height: 800px;
 }
 
 #container-carousel {
@@ -1552,7 +1562,7 @@ slider
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
+  padding: 50px;
 }
 
 .porque-button {

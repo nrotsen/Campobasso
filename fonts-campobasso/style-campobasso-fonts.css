@@ -100,11 +100,23 @@ h1 {
 }
 
 .container-nosotros-info p {
-  font-size: 60px;
   font-size: 20px;
-  font-family: "HOLISPAY";
+  font-family: "MONTSERRAT";
   color: #000;
   max-width: 60%;
+  font-weight: 500;
+}
+
+.gracias-text {
+  font-family: "HOLISPAY" !important;
+}
+
+.porque-eligen {
+  color: #d9bc81 !important;
+}
+
+.en-campobasso {
+  font-family: "HOLISPAY" !important;
 }
 
 .container-nosotros-vaquitas h3 {
@@ -190,9 +202,15 @@ h1 {
 }
 
 .rallado-info p {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "HOLISPAY";
   color: #000;
+}
+
+.container-almacen-text h3 {
+  margin-top: 15px;
+  font-family: "MONTSERRAT";
+  font-weight: 500;
 }
 
 .container-text-and-button p {
@@ -210,7 +228,7 @@ h1 {
 .text-description {
   color: #000;
   font-family: "MONTSERRAT";
-  font-size: 25px;
+  font-size: 17px;
   line-height: 30px;
   margin: 50px 0 50px 0;
 }
@@ -250,9 +268,10 @@ h1 {
 }
 
 .container-description-nuestros p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "MONTSERRAT";
   color: #000;
+  font-weight: 500;
 }
 
 .ingredientes {
